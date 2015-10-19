@@ -1,7 +1,18 @@
 <html>
     <head>
         <title>Ferienfilm Festival</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            
 		<script>
 			$(document).ready(function(){
 				$('#menu').change(function(e){
@@ -9,8 +20,51 @@
 				});
 			}); 
 		</script>
+        
+        <style>
+            body{
+                background-image: url('test1.gif');
+                background-size: cover;
+            }
+        </style>
     </head>
     <body>
+        
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">fff</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#">T</a></li>
+                <li><a href="#">I-H</a></li>
+                <li><a href="#">P-B</a></li>
+                <li><a href="#">M-S</a></li>
+                <li><a href="#">I-K</a></li>
+                <li><a href="#">T-F</a></li>
+                <li><a href="#">P-M</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        
+        <!--
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/142421405"></iframe>
+        </div>
+        -->
+        
+        <!--
         <select id="menu" style="width:100%;">
             <option value="index.html">Trailer</option>
             <option value="indonesiaHoesli.html">Indonesia . Kaspar Hoesli</option>
@@ -23,5 +77,6 @@
         <br/>
         <br/>
         <iframe src="https://player.vimeo.com/video/142421405" width="100%" height="90%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        -->
     </body>
 </html>
