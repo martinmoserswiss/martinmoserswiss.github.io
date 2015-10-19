@@ -1,16 +1,24 @@
 <html>
     <head>
         <title>Ferienfilm Festival</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#menu').change(function(e){
+					window.location.href = $("#menu option:selected").attr('value');
+				});
+			}); 
+		</script>
     </head>
     <body>
-        <select style="width:100%;">
-            <option onclick="location.href='index.html'">Trailer</option>
-            <option onclick="location.href='indonesiaHoesli.html'">Indonesia . Kaspar Hoesli</option>
-            <option selected onclick="location.href='peruBoeschoten.html'">Peru . Luca Boeschoten</option>
-            <option onclick="location.href='montpelierSatar.html'">Montpelier . Yasin Satar</option>
-            <option onclick="location.href='indonesiaKlee.html'">Indonesien . Pascal Klee</option>
-            <option onclick="location.href='taiwanFuersinger.html'">Taiwan . Julian Fuersinger</option>
-            <option onclick="location.href='peruMoser.html'">Peru . Christian Moser</option>
+        <select id="menu" style="width:100%;">
+            <option value="index.html">Trailer</option>
+            <option value="indonesiaHoesli.html">Indonesia . Kaspar Hoesli</option>
+            <option selected value="peruBoeschoten.html">Peru . Luca Boeschoten</option>
+            <option value="montpelierSatar.html">Montpelier . Yasin Satar</option>
+            <option value="indonesiaKlee.html">Indonesien . Pascal Klee</option>
+            <option value="taiwanFuersinger.html">Taiwan . Julian Fuersinger</option>
+            <option value="peruMoser.html">Peru . Christian Moser</option>
         </select>
         <br/>
         <br/>
