@@ -7,6 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Mail */
+    my-email::after {
+        content: attr(data-domain);
+    }
+    my-email::before {
+        content: attr(data-user) "\0040";
+    }
+
 /* Basic */
 
 	body {
