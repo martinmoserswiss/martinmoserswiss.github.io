@@ -15,6 +15,41 @@
         content: attr(data-user) "\0040";
     }
 
+/* Tags */
+    div.tags{
+        border-radius: 10px;
+        margin-left: 2px;
+        padding: 5px;
+        height: 40px;
+        color: white;
+        float: left;
+    }
+
+    div.employee {
+        background: #3369E8;
+        width: 80px;
+    }
+
+    div.private {
+        background: #009925;
+        width: 60px;
+    }
+
+    div.study {
+        background: #CC004C;
+        width: 120px;
+    }
+
+    div.done {
+        background: #FCB711;
+        width: 45px;
+    }
+
+    div.wip {
+        background: #6460AA;
+        width: 65px;
+    }
+
 /* Basic */
 
 	body {
@@ -454,11 +489,16 @@
 
 /* Image */
 
+    .portfolio {
+        border:1px solid black;
+    }
+
 	.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+        height: 200px;
 	}
 
 		.image:before {
@@ -468,6 +508,7 @@
 			-ms-transition: opacity 1.0s ease-in-out;
 			transition: opacity 1.0s ease-in-out;
 			border-radius: 0.35em;
+            border:1px solid black;
 			content: '';
 			display: block;
 			height: 100%;
@@ -939,9 +980,9 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../images/bg2.jpg");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
+		background-repeat: repeat;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
