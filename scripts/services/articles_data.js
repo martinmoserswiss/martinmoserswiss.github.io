@@ -393,7 +393,7 @@ portfolioApp.factory('ArticlesDataService', function() {
     
     // Service implementation
     srv.getWipArticles = function () {
-        return srv._wipArticles;
+        return angular.copy(srv._wipArticles);
     };
 
     srv.getDadArticles = function () {
