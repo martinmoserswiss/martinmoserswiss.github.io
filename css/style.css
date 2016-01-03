@@ -485,7 +485,6 @@
 /* Image */
 
     .portfolio {
-        /*border:1px solid black;*/
     }
 
 	.image {
@@ -503,7 +502,6 @@
 			-ms-transition: opacity 1.0s ease-in-out;
 			transition: opacity 1.0s ease-in-out;
 			border-radius: 0.35em;
-            border:1px solid black;
 			content: '';
 			display: block;
 			height: 100%;
@@ -579,8 +577,7 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 300px;
-			height:190px;
+			height:100%;
 		}
 
 			.image.fit img {
