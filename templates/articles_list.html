@@ -1,0 +1,80 @@
+<input type="text" placeholder="Filter (ex.: done, private, .NET, Java, 2014, ...)" ng-model="filterString"/><br/>
+<section>
+
+    <h3 ng-bind="'Work in progress (' + filteredwipArticles.length + ')'" />
+    <span ng-show="filteredwipArticles.length == 0">No projects<br/><br/></span>
+    <div class="row">
+        <article ng-repeat="wipArticle in filteredwipArticles" class="6u 12u$(3) work-item">
+            <a class="image fit"><img ng-src="{{wipArticle.imagePath}}" /></a>
+            <h2 ng-bind="wipArticle.title + ' (' + wipArticle.year + ')'"/>
+            <p ng-bind="wipArticle.description"/><br/>
+
+            <p>
+                <span ng-repeat="task in wipArticle.tasks">
+                    <span ng-bind="task" />
+                </span>
+            </p>
+
+            <p>
+                <a ng-bind="wipArticle.link" target="_blank" ng-href="{{wipArticle.link}}"></a>
+            </p><br/>
+
+            <div ng-repeat="tag in wipArticle.tags">
+                <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
+            </div>
+
+        </article>
+    </div>
+</section>
+
+<section>
+    <h3 ng-bind="'Done and dusted (' + (dadArticles | filter:searchText).length + ')'" />
+    <span ng-show="(dadArticles | filter:searchText).length == 0">No projects<br/><br/></span>
+    <div class="row">
+        <article ng-repeat="dadArticle in dadArticles | filter: searchText" class="6u 12u$(3) work-item">
+            <a class="image fit"><img ng-src="{{dadArticle.imagePath}}" /></a>
+            <h2 ng-bind="dadArticle.title + ' (' + dadArticle.year + ')'"/>
+            <p ng-bind="dadArticle.description"/><br/>
+
+            <p>
+                <span ng-repeat="task in dadArticle.tasks">
+                    <span ng-bind="task" />
+                </span>
+            </p>
+
+            <p>
+               <a ng-bind="dadArticle.link" target="_blank" ng-href="{{dadArticle.link}}"></a>
+            </p><br/>
+
+            <div ng-repeat="tag in dadArticle.tags">
+                <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section>
+    <h3 ng-bind="'Inactive (' + (inactiveArticles | filter:searchText).length + ')'" />
+    <span ng-show="(inactiveArticles | filter:searchText).length == 0">No projects<br/><br/></span>
+    <div class="row">
+        <article ng-repeat="inactiveArticle in inactiveArticles | filter: searchText" class="6u 12u$(3) work-item">
+            <a class="image fit"><img ng-src="{{inactiveArticle.imagePath}}" /></a>
+            <h2 ng-bind="inactiveArticle.title + ' (' + inactiveArticle.year + ')'"/>
+            <p ng-bind="inactiveArticle.description"/><br/>
+
+            <p>
+                <span ng-repeat="task in inactiveArticle.tasks">
+                    <span ng-bind="task" />
+                </span>
+            </p>
+
+            <p>
+                <a ng-bind="inactiveArticle.link" target="_blank" ng-href="{{inactiveArticle.link}}"></a>
+            </p><br/>
+
+            <div ng-repeat="tag in inactiveArticle.tags">
+                <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
+            </div>
+        </article>
+    </div>
+</section>

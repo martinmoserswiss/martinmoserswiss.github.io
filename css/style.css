@@ -27,27 +27,22 @@
 
     div.employee {
         background: #3369E8;
-        width: 80px;
     }
 
     div.private {
         background: #009925;
-        width: 60px;
     }
 
     div.study {
         background: #CC004C;
-        width: 120px;
     }
 
     div.done {
         background: #FCB711;
-        width: 45px;
     }
 
     div.wip {
         background: #6460AA;
-        width: 65px;
     }
 
 /* Basic */
@@ -490,7 +485,7 @@
 /* Image */
 
     .portfolio {
-        border:1px solid black;
+        /*border:1px solid black;*/
     }
 
 	.image {
@@ -584,7 +579,8 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 300px;
+			height:190px;
 		}
 
 			.image.fit img {
@@ -979,8 +975,8 @@
 
 	#header {
 		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg2.jpg");
+		background-attachment: fixed;
+		background-image: url("images/overlay.png");
 		background-position: top left,							top left;
 		background-repeat: repeat;
 		background-size: auto,								auto 100%;

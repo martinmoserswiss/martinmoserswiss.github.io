@@ -1,217 +1,71 @@
 <!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html ng-app="portfolioApp">
 	<head>
 		<title>Martin Moser</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+        <!-- Scripts-->
+        <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/jquery-ui/jquery-ui.css">
+        <script src="lib/jquery/jquery-1.10.2.min.js"></script>
+        <script src="lib/jquery-ui/jquery-ui.min.js"></script>
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-route/angular-route.js"></script>
+        <script src="lib/jquery-poptrox/jquery.poptrox.min.js"></script>
+        <script src="lib/skel/skel.min.js"></script>
+        <script src="lib/init/init.js"></script>
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+
+        <!-- Portfolio Application -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/articles_list.js"></script>
+        <script src="scripts/services/articles_data.js"></script>
+
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        <noscript>
+            <link rel="stylesheet" href="css/skel.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/style-xlarge.css" />
+        </noscript>
+
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header">
-				<a href="#" class="image avatar"><img src="images/mm.png" alt="" /></a>
+				<a href="#" class="image avatar"><img src="images/mm.png" alt="" /></a><br/><br/>
 				<h1><strong>Martin Moser</strong><br/>
-				Software-Engineer<br/><br/>
-				</h1>
-                <p>
-                    Welcome to my portfolio<br/>
-                    Here is a selection of my work, I did in my freetime<br/>or while I was employeed.<br/>
-                </p>
+				Software-Engineer<br/><br/></h1>
+
                 <h4>Contact</h4>
                 <p>
                     I'm looking forward to recieve your mail.<br/>
                     <my-email data-user="mail.martinmoser" data-domain="gmail.com"></my-email>
                 </p>
+
 			</header>
 
 		<!-- Main -->
 			<div id="main">
-                <section>
-                    <h3>Work in progress (2)</h3>
-                    <div class="row">
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/bloomyo/1.png" alt="" /></a>
-                            <h2>Bloomyo (2015)</h2>
-                            <p>Is a IoT-Project which I'm doing with my brother. The product will help people to care about their plants.</p><br/>
-                            <p>Planing | Java/Java-Script-Development</p><br/>
-                            <div class="tags private">private</div><div class="tags wip">@work</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/jumpin/1.png" alt="" /></a>
-                            <h2>Jumpin (2015)</h2>
-                            <p>That hybrid mobile app helps hospitals to find human-ressources easy and quick.</p><br/>
-                            <p>Java-Script/.NET-Development</p><br/>
-                            <div class="tags employee">employee</div><div class="tags wip">@work</div>
-                        </article>
-                    </div>
-                </section>
-                <section>
-                    <h3>Done and dusted (15)</h3>
-                    <div class="row">
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/ferienfilmfestival/1.png" alt="" /></a>
-                            <h2>Ferienfilmfestival (2015)</h2>
-                            <p>Is a festival which I organize with a friend and my brother. That simple website shows how nowadays information can be spreaded easy and quick, all over the world for free.</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <a href="http://ferienfilme.github.io/" target="_blank">http://ferienfilme.github.io/</a><br/><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/hinterweissenstein/1.png" alt="" /></a>
-                            <h2>Hinterweissenstein (2014)</h2>
-                            <p>Is the traditional family restaurant of my aunt and uncle which is in the german part of the Jura in Solothurn, Switzerland. This website has been made with wordpress and is now completly maintained by the owners.</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <a href="http://www.hinterweissenstein.ch" target="_blank">www.hinterweissenstein.ch</a><br/><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div><br/><br/><br/>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/dhbloechlinger/1.png" alt="" /></a>
-                            <h2>DH Blöchlinger (2014)</h2>
-                            <p>Is a dental hygiene office in Berne and the manager is of a good friend mine. The e-card-page is a  high profile in web.</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <a href="http://dh-bloechlinger.ch/" target="_blank">http://dh-bloechlinger.ch/</a><br/><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/immomobil/1.png" alt="" /></a>
-                            <h2>ImmoMobil (2014-2015)</h2>
-                            <p>Xamarin tablet-application which enables a media disruptional maintaining of real estates.</p><br/>
-                            <p>Design | .NET-Development</p><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div><br/><br/><br/><br/>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/wabmaag/1.png" alt="" /></a>
-                            <h2>WabMaAG (2014-2015)</h2>
-                            <p>This java web-application processes unreadable election-results into suitable grafics and tables.</p><br/>
-                            <p>Java-Development</p><br/>
-                            <a href="https://www.ag.ch" target="_blank">www.ag.ch</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/myki/1.png" alt="" /></a>
-                            <h2>Myki (2014-2015)</h2>
-                            <p>This is a native mobile app which helps children with a kidney disease. The app is available for Android and iOS, where I was responsible for the iOS-version.</p><br/>
-                            <p>iOS-Development</p><br/>
-                            <a href="https://itunes.apple.com/pt/app/myki/id969515321" target="_blank">itunes.apple.com/pt/app/myki/id969515321</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/nstep/1.png" alt="" /></a>
-                            <h2>n-Step (2014-2015)</h2>
-                            <p>This java web-application enables the registration of graduates in the canton Aargau.</p><br/>
-                            <p>Java-Development</p><br/>
-                            <a href="https://www.ag.ch" target="_blank">www.ag.ch</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/plusdrive/1.png" alt="" /></a>
-                            <h2>Plusdrive (2014-2015)</h2>
-                            <p>Evaluation, technical take-over and development of a already existing .NET-web-application.</p><br/>
-                            <p>.NET-Development</p><br/>
-                            <a href="https://www.plusdrive.ch" target="_blank">www.plusdrive.ch</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/zhservices/1.png" alt="" /></a>
-                            <h2>ZH-Services (2014)</h2>
-                            <p>Development-support in three different Java-web-applications which are running on a SAP-platforms. Electronical reassessment of withholding taxes, registration und authentification for third-party applications, apprenticeship portal to request informations and provides the processing of contribution payment.</p><br/>
-                            <p>Java-Development</p><br/>
-                            <a href="https://www.services.zh.ch" target="_blank">www.services.zh.ch</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/neurolitetraining/1.png" alt="" /></a>
-                            <h2>Neurolitetraining (2014)</h2>
-                            <p>A registration- and informationpage for an neurolgy-concress in Berne.</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <a href="http://www.neurolitetraining.ch" target="_blank">www.neurolitetraining.ch</a><br/><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div><br/><br/><br/><br/><br/>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/tms/1.png" alt="" /></a>
-                            <h2>TMS-Therapie (2013)</h2>
-                            <p>A informationpage which covers the topic of transcranial magnetic stimulation in therapie.</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <a href="http://www.tms-therapie.ch" target="_blank">www.tms-therapie.ch</a><br/><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/greenpro/1.jpg" alt="" /></a>
-                            <h2>Greenproperty (2013-2015)</h2>
-                            <p>A java-web-application which supports the „Real Estate Asset Management“ of Crédit Suisse.</p><br/>
-                            <p>Java-Development</p><br/>
-                            <a href="http://www.greenproperty.ch" target="_blank">http://www.greenproperty.ch</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/datamining/1.jpg" alt="" /></a>
-                            <h2>DataMining for neglect-patients  (2013)</h2>
-                            <p>Bachelor Thesis im Rahmen der Ausbildung zum BSc in Informatik. Die Neglect Analysis Software erlaubt eine automatisierte Auswertung von Patiententests, welche mit einer Grafiksoftware durchgeführt wurden. Die Resultate werden dem Benutzer in Form von Diagrammen dargestellt und dienen der Diagnosestellung. Planung und Realisierung der produktiv eingesetzten Java Applikation. </p><br/>
-                            <p>Planing | Java-Development</p><br/>
-                            <div class="tags study">Bachelor-Thesis</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/doi/1.png" alt="" /></a>
-                            <h2>ETH Zurich DOI (2012-2013)</h2>
-                            <p>ETH Zurich's DOI Desk is the official DOI registration office for Switzerland's university and research sector.</p><br/>
-                            <p>Java-Development</p><br/>
-                            <a href="https://www.library.ethz.ch/en/Services/Publishing-registering-managing/ETH-Zurich-DOI-Desk" target="_blank">www.library.ethz.ch/en/Services/Publishing-registering-managing/ETH-Zurich-DOI-Desk</a><br/><br/>
-                            <div class="tags employee">employee</div><div class="tags done">done</div><br/><br/><br/><br/>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/voegeli/1.png" alt="" /></a>
-                            <h2>Vögeli AG (2010)</h2>
-                            <p>A Portrait of the Construction-Company in Limpach, Switzerland.</p><br/>
-                            <p>Planing | PHP-Development</p><br/>
-                            <a href="http://www.voegelibau.ch" target="_blank">www.voegelibau.ch</a><br/><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div>
-                        </article>
-                    </div>
-                </section>
-                <section>
-                    <h3>Inactive (2)</h3>
-                    <div class="row">
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/praxisapp/1.png" alt="" /></a>
-                            <h2>Praxis-App (2010)</h2>
-                            <p>A adminstration-web-application for a private massage-office.</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div>
-                        </article>
-                        <article class="6u 12u$(3) work-item">
-                            <a class="image fit"><img src="images/portfolio/verenamoser/1.png" alt="" /></a>
-                            <h2>Verena Moser (2010)</h2>
-                            <p>Election-Page of Verena Moser</p><br/>
-                            <p>Planing | Development</p><br/>
-                            <div class="tags private">private</div><div class="tags done">done</div>
-                        </article>
-                    </div>
-                </section>
+
+                <p>
+                    Welcome to my portfolio!<br/>
+                    Here is a selection of my work, I did in my freetime or while I was employeed.<br/>
+                </p>
+
+                <div ng-view/>
+
 			</div>
         
 		<!-- Footer -->
+        <!--
 			<footer id="footer">
 				<ul class="copyright">
 					<li>&copy; Martin Moser, 2015</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</footer>
-
+        -->
 	</body>
 </html>
