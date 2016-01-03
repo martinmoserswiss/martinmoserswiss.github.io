@@ -1,4 +1,4 @@
-<input type="text" placeholder="Filter (ex.: done, private, .NET, Java, 2014, ...)" ng-model="filterString"/><br/>
+<input type="text" placeholder="Filter (ex.: done, private, .NET, Java, 2014, ...)" ng-model="filterString" width="100%"/><br/>
 <section>
     <h3 ng-bind="'Work in progress (' + filteredWipArticles.length + ')'"/>
     <span ng-show="filteredWipArticles.length == 0">No projects<br/><br/></span>
@@ -15,7 +15,7 @@
             </p>
 
             <p>
-                <a ng-bind="wipArticle.link" target="_blank" ng-href="{{wipArticle.link}}"></a>
+                <a ng-bind="wipArticle.linkText" target="_blank" ng-href="{{wipArticle.link}}"></a>
             </p><br/>
 
             <div ng-repeat="tag in wipArticle.tags">
@@ -42,7 +42,7 @@
             </p>
 
             <p>
-               <a ng-bind="dadArticle.link" target="_blank" ng-href="{{dadArticle.link}}"></a>
+               <a ng-bind="dadArticle.linkText" target="_blank" ng-href="{{dadArticle.link}}"></a>
             </p><br/>
 
             <div ng-repeat="tag in dadArticle.tags">
@@ -68,7 +68,7 @@
             </p>
 
             <p>
-                <a ng-bind="inactiveArticle.link" target="_blank" ng-href="{{inactiveArticle.link}}"></a>
+                <a ng-bind="inactiveArticle.linkText" target="_blank" ng-href="{{inactiveArticle.link}}"></a>
             </p><br/>
 
             <div ng-repeat="tag in inactiveArticle.tags">

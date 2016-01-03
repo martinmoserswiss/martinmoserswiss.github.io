@@ -12,6 +12,8 @@ portfolioApp.factory('ArticlesDataService', function() {
             tasks : [
                 'Planing | ', 'Java/Java-Script-Development'
             ],
+            link : '',
+            linkText : '',
             tags : [
                 {
                     text : 'private',
@@ -31,6 +33,8 @@ portfolioApp.factory('ArticlesDataService', function() {
             tasks : [
                 'Java-Script/.NET-Development'
             ],
+            link : '',
+            linkText : '',
             tags : [
                 {
                     text : 'employee',
@@ -54,6 +58,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'Development'
             ],
             link : 'http://ferienfilme.github.io/',
+            linkText : 'http://ferienfilme.github.io/',
             tags : [
                 {
                     text : 'private',
@@ -74,6 +79,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'Development'
             ],
             link: 'http://www.hinterweissenstein.ch',
+            linkText : 'http://www.hinterweissenstein.ch',
             tags : [
                 {
                     text : 'private',
@@ -94,6 +100,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'Development'
             ],
             link: 'http://dh-bloechlinger.ch/',
+            linkText : 'http://dh-bloechlinger.ch/',
             tags : [
                 {
                     text : 'private',
@@ -114,6 +121,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Design | ', '.NET-Development with Xamarin'
             ],
             link: '',
+            linkText : '',
             tags : [
                 {
                     text : 'employee',
@@ -134,6 +142,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Java-Development'
             ],
             link: 'https://www.ag.ch',
+            linkText : 'https://www.ag.ch',
             tags : [
                 {
                     text : 'employee',
@@ -154,6 +163,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'iOS-Development with Objectiv-C'
             ],
             link: 'https://itunes.apple.com/pt/app/myki/id969515321',
+            linkText : 'https://itunes.apple.com/pt/app/myki/id969515321',
             tags : [
                 {
                     text : 'employee',
@@ -174,6 +184,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Java-Development'
             ],
             link: 'https://www.ag.ch',
+            linkText : 'https://www.ag.ch',
             tags : [
                 {
                     text : 'employee',
@@ -194,6 +205,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 '.NET-Development'
             ],
             link: 'https://www.plusdrive.ch',
+            linkText : 'https://www.plusdrive.ch',
             tags : [
                 {
                     text : 'employee',
@@ -214,6 +226,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Java-Development'
             ],
             link: 'https://www.services.zh.ch',
+            linkText : 'https://www.services.zh.ch',
             tags : [
                 {
                     text : 'employee',
@@ -234,6 +247,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'Development'
             ],
             link: 'http://www.neurolitetraining.ch',
+            linkText : 'http://www.neurolitetraining.ch',
             tags : [
                 {
                     text : 'private',
@@ -254,6 +268,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'Development'
             ],
             link: 'http://www.tms-therapie.ch',
+            linkText : 'http://www.tms-therapie.ch',
             tags : [
                 {
                     text : 'private',
@@ -274,6 +289,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Java-Development'
             ],
             link: 'http://www.greenproperty.ch',
+            linkText : 'http://www.greenproperty.ch',
             tags : [
                 {
                     text : 'employee',
@@ -294,6 +310,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'Java-Development'
             ],
             link: 'http://students.book.bfh.ch/fileadmin/tx_bfh/pdf/abstracts/357_Martin_Moser.pdf',
+            linkText : 'http://students.book.bfh.ch/...',
             tags : [
                 {
                     text : 'Bachelor-Thesis',
@@ -314,6 +331,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Java-Development'
             ],
             link: 'https://www.library.ethz.ch/en/Dienstleistungen/Publizieren-registrieren-verwalten/DOI-Desk-der-ETH-Zuerich',
+            linkText : 'https://www.library.ethz.ch/en/...',
             tags : [
                 {
                     text : 'employee',
@@ -334,6 +352,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing |', 'PHP- and Java-Script-Development'
             ],
             link: 'http://www.voegelibau.ch',
+            linkText : 'http://www.voegelibau.ch',
             tags : [
                 {
                     text : 'private',
@@ -357,6 +376,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'PHP- and Java-Script-Development'
             ],
             link : '',
+            linkText : '',
             tags : [
                 {
                     text : 'private',
@@ -377,6 +397,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 'Planing | ', 'PHP- and Java-Script-Development'
             ],
             link: '',
+            linkText : '',
             tags : [
                 {
                     text : 'private',
