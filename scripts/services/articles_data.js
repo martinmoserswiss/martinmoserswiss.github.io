@@ -8,7 +8,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Bloomyo',
             year: '2015',
-            description : 'Is a IoT-Project which Im doing with my brother. The product will help people to care about their plants.',
+            description : "This is a IoT-Project which Im doing with my brother. The product will help people to care about their plants. We're using a Arduino-board which we're programming with C++. Pumping water through pipes and relays. For the other software we are using Angular, Java and iOS as frontend technologies. The backend works with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
             tasks : [
                 'Planing | ', 'Java/Java-Script-Development'
             ],
@@ -29,9 +29,9 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Jumpin',
             year: '2015',
-            description : 'That hybrid mobile app helps hospitals to find human-ressources easy and quick.',
+            description : "That SAPUI5 hybrid mobile app helps hospitals to find human-resources easy and quick.",
             tasks : [
-                'Java-Script/.NET-Development'
+                'SAPUI5 Java-Script- & .NET-Development'
             ],
             link : '',
             linkText : '',
@@ -53,7 +53,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Ferienfilmfestival',
             year: '2015',
-            description : 'Is a festival which I organize with a friend and my brother. That simple website shows how nowadays information can be spreaded easy and quick, all over the world for free.',
+            description : "Is a film-festival which I organize with a friend and my brother. It's an event, where we want to show all our emotions & impressions during our trips. We try to spend your free time for traveling. It doesn't matter if you go surfing, skateboarding, hiking or what ever. It's always a great experience to hang out with new people and explore their country. For the first edition of our FFF, we brought together six movies from six people who traveled in four different countries. It's great to see the commitment which is floating into their movies. Our goal was to store up the experience we made on these journeys forever.",
             tasks : [
                 'Planing | ', 'Development (HTML, CSS, Java-Script)'
             ],
@@ -74,7 +74,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Hinterweissenstein',
             year: '2014',
-            description : 'Is the traditional family restaurant of my aunt and uncle which is in the german part of the Jura in Solothurn, Switzerland. This website has been made with wordpress and is now completly maintained by the owners.',
+            description : "Is the traditional family restaurant of my aunt and uncle which is in the german part of the Jura in Solothurn, Switzerland. This website has been made with wordpress and is now completely maintained by the owners. I organized the production of all pictures which were taken by a friend.",
             tasks : [
                 'Planing | ', 'Development (Wordpress)'
             ],
@@ -95,9 +95,9 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'DH Blöchlinger',
             year: '2014',
-            description : 'Is a dental hygiene office in Berne and the manager is of a good friend mine. The e-card-page is a  high profile in web.',
+            description : "This page is for a dental hygiene office in Bern, Switzerland. The concept of that e-card-page has a high profile in the web.",
             tasks : [
-                'Planing | ', 'Development'
+                'Planing | ', 'Development (HTML, CSS, Java-Script)'
             ],
             link: 'http://dh-bloechlinger.ch/',
             linkText : 'http://dh-bloechlinger.ch/',
@@ -137,9 +137,9 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'WabMaAG',
             year: '2014-2015',
-            description : 'This java web-application processes unreadable election-results into suitable grafics and tables.',
+            description : 'This java web-application processes a huge amount of unreadable election-results into suitable graphics and tables.',
             tasks : [
-                'Java-Development'
+                'Java- & Java-Script-Development'
             ],
             link: 'https://www.ag.ch',
             linkText : 'https://www.ag.ch',
@@ -179,9 +179,9 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'n-Step',
             year: '2014-2015',
-            description : 'This java web-application enables the registration of graduates in the canton Aargau.',
+            description : 'This java web-application enables the registration of graduates in the canton aargau.',
             tasks : [
-                'Java-Development'
+                'Java- & Java-Script-Development (AJAX)'
             ],
             link: 'https://www.ag.ch',
             linkText : 'https://www.ag.ch',
