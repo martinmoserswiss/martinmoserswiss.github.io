@@ -55,7 +55,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2015',
             description : 'Is a festival which I organize with a friend and my brother. That simple website shows how nowadays information can be spreaded easy and quick, all over the world for free.',
             tasks : [
-                'Planing | ', 'Development'
+                'Planing | ', 'Development (HTML, CSS, Java-Script)'
             ],
             link : 'http://ferienfilme.github.io/',
             linkText : 'http://ferienfilme.github.io/',
@@ -76,7 +76,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2014',
             description : 'Is the traditional family restaurant of my aunt and uncle which is in the german part of the Jura in Solothurn, Switzerland. This website has been made with wordpress and is now completly maintained by the owners.',
             tasks : [
-                'Planing | ', 'Development'
+                'Planing | ', 'Development (Wordpress)'
             ],
             link: 'http://www.hinterweissenstein.ch',
             linkText : 'http://www.hinterweissenstein.ch',
@@ -202,7 +202,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2014-2015',
             description : 'Evaluation, technical take-over and development of a already existing .NET-web-application.',
             tasks : [
-                '.NET-Development'
+                '.NET-Development (MSSQL, .NET 3.5, Windows-Services)'
             ],
             link: 'https://www.plusdrive.ch',
             linkText : 'https://www.plusdrive.ch',
@@ -223,7 +223,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2014',
             description : 'Development-support in three different Java-web-applications which are running on a SAP-platforms. Electronical reassessment of withholding taxes, registration und authentification for third-party applications, apprenticeship portal to request informations and provides the processing of contribution payment.',
             tasks : [
-                'Java-Development'
+                'Java-Development (SAP-Platform, Primefaces, FOP, SAML)'
             ],
             link: 'https://www.services.zh.ch',
             linkText : 'https://www.services.zh.ch',
@@ -244,7 +244,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2014',
             description : 'A registration- and informationpage for an neurolgy-concress in Berne.',
             tasks : [
-                'Planing | ', 'Development'
+                'Planing | ', 'Development (Wordpress)'
             ],
             link: 'http://www.neurolitetraining.ch',
             linkText : 'http://www.neurolitetraining.ch',
@@ -265,7 +265,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2013',
             description : 'A informationpage which covers the topic of transcranial magnetic stimulation in therapie.',
             tasks : [
-                'Planing | ', 'Development'
+                'Planing | ', 'Development (Wordpress)'
             ],
             link: 'http://www.tms-therapie.ch',
             linkText : 'http://www.tms-therapie.ch',
@@ -284,9 +284,9 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Greenproperty',
             year: '2013-2015',
-            description : 'A java-web-application which supports the „Real Estate Asset Management“ of Crédit Suisse.',
+            description : 'A java-web-application which supports the „Real Estate Asset Management“ of Crédit Suisse. I was involved during the creation of the first version and later on while we were implementing further features like the reporting and PDF-Creation. We used open-source technologies like Spring, Hibernate, MySQL, Primefaces, Birt and some open-source libraries.',
             tasks : [
-                'Java-Development'
+                'Java-Development (Spring, Hibernate, MySQL, Primefaces, Birt and some open-source libraries.)'
             ],
             link: 'http://www.greenproperty.ch',
             linkText : 'http://www.greenproperty.ch',
@@ -307,7 +307,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             year: '2013',
             description : 'Bachelor thesis in the context of education for BSc in computer science. The Neglect Analysis software allows automated analysis of patient tests, which were carried out with a graphic software. The results will be presented to the user in the form of charts and serve the diagnosis. Planning and implementation of Java productively deployed application.',
             tasks : [
-                'Planing | ', 'Java-Development'
+                'Planing | ', 'Java-Development (Swing, Derby, Log4j, PDFJet, JFreeChart)'
             ],
             link: 'http://students.book.bfh.ch/fileadmin/tx_bfh/pdf/abstracts/357_Martin_Moser.pdf',
             linkText : 'http://students.book.bfh.ch/...',
@@ -326,9 +326,9 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'ETH Zurich DOI',
             year: '2012-2013',
-            description : 'ETH Zurichs DOI Desk is the official DOI registration office for Switzerlands university and research sector. I was gathering there my first experience as a employed java-developer while I was studying. It was an open-source java web-project based on the lakshmi-framework where we were using ant, glassfish-webserver, postgres-database, junit, log4j and some open-source libraries.',
+            description : 'ETH Zurichs DOI Desk is the official DOI registration office for Switzerlands university and research sector. I was gathering there my first experience as a employed java-developer while I was studying. It is an open-source java web-project based on the lakshmi-framework where we were using Rich-Faces, ant, glassfish, postgres, junit, log4j and some open-source libraries.',
             tasks : [
-                'Java-Development'
+                'Java-Development (Rich-Faces, Ant, Glassfish, Postgres, Junit, Log4j and some open-source libraries)'
             ],
             link: 'https://www.library.ethz.ch/en/Dienstleistungen/Publizieren-registrieren-verwalten/DOI-Desk-der-ETH-Zuerich',
             linkText : 'https://www.library.ethz.ch/en/...',
