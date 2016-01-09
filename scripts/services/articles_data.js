@@ -8,7 +8,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Bloomyo',
             year: '2015',
-            description : "This is a IoT-Project which Im doing with my brother. The product will help people to care about their plants. We're using a Arduino-board which we're programming with C++. Pumping water through pipes and relays. For the other software we are using Angular, Java and iOS as frontend technologies. The backend works with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
+            description : "This is an IoT-Project I am doing with my brother. The product will help people to take care of their plants. We're using an Arduino-board we're programming with C++. Pumping water through pipes and relays. For the other software we are using Angular, Java and iOS as frontend technologies. The backend works with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
             tasks : [
                 'Planing | ', 'Java/Java-Script-Development'
             ],
@@ -29,7 +29,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Jumpin',
             year: '2015',
-            description : "That SAPUI5 hybrid mobile app helps hospitals to find human-resources easy and quick.",
+            description : "That SAPUI5 hybrid mobile app helps hospitals to find human resources easily and quickly.",
             tasks : [
                 'SAPUI5 Java-Script- & .NET-Development'
             ],
@@ -53,7 +53,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Ferienfilmfestival',
             year: '2015',
-            description : "Is a film-festival which I organize with a friend and my brother. It's an event, where we want to show all our emotions & impressions during our trips. We try to spend your free time for traveling. It doesn't matter if you go surfing, skateboarding, hiking or what ever. It's always a great experience to hang out with new people and explore their country. For the first edition of our FFF, we brought together six movies from six people who traveled in four different countries. It's great to see the commitment which is floating into their movies. Our goal was to store up the experience we made on these journeys forever.",
+            description : "Is a film-festival I organized with a friend and my brother. The idea behind the event, was to show all the emotions and impressions we gathered on our trips. We try to spend our free time travelling. It doesn't matter if you go surfing, skateboarding, hiking or what ever. It's always a great experience to hang out with new people and explore their country. For the first edition of our FFF we brought together six movies from six people who travelled to/around four different countries. It's great to see the commitment they put into their movies. Our goal was to store up the experience we made on these journeys forever.",
             tasks : [
                 'Planing | ', 'Development (HTML, CSS, Java-Script)'
             ],
@@ -74,7 +74,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Hinterweissenstein',
             year: '2014',
-            description : "Is the traditional family restaurant of my aunt and uncle which is in the german part of the Jura in Solothurn, Switzerland. This website has been made with wordpress and is now completely maintained by the owners. I organized the production of all pictures which were taken by a friend.",
+            description : "Is my aunt and uncle’s traditional family restaurant based in the German part of the Jura in Solothurn, Switzerland. This website was made with wordpress and is now completely maintained by the owners. I organized the production of all pictures, which were taken by a friend.",
             tasks : [
                 'Planing | ', 'Development (Wordpress)'
             ],
@@ -158,7 +158,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Myki',
             year: '2014-2015',
-            description : 'This is a native mobile app which helps children with a kidney disease. The app is available for Android and iOS, where I was responsible for the iOS-version.',
+            description : 'This is a native mobile app helping children with a kidney disease. The app is available for Android and iOS, where I was responsible for the iOS-version.',
             tasks : [
                 'iOS-Development with Objectiv-C'
             ],
@@ -179,7 +179,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'n-Step',
             year: '2014-2015',
-            description : 'This java web-application enables the registration of graduates in the canton aargau.',
+            description : 'This java web-application enables the registration of graduates in the canton Aargau, Switzerland.',
             tasks : [
                 'Java- & Java-Script-Development (AJAX)'
             ],
@@ -200,7 +200,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Plusdrive',
             year: '2014-2015',
-            description : 'Evaluation, technical take-over and development of a already existing .NET-web-application.',
+            description : 'Evaluation, technical take-over and development of an already existing .NET-web-application.',
             tasks : [
                 '.NET-Development (MSSQL, .NET 3.5, Windows-Services)'
             ],
@@ -221,7 +221,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'ZH-Services',
             year: '2014',
-            description : 'Development-support in three different Java-web-applications which are running on a SAP-platforms. Electronical reassessment of withholding taxes, registration und authentification for third-party applications, apprenticeship portal to request informations and provides the processing of contribution payment.',
+            description : 'Development-support in three different Java-web-applications, which are running on SAP-platforms. Electronic registration of withholding taxes, registration und authentification of third-party applications, apprenticeship portal providing information on teachers and enabling the processing of payment of contributions.',
             tasks : [
                 'Java-Development (SAP-Platform, Primefaces, FOP, SAML)'
             ],
@@ -242,7 +242,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Neurolitetraining',
             year: '2014',
-            description : 'A registration- and informationpage for an neurolgy-concress in Berne.',
+            description : 'A registration- and information page for a neurology-congress in Berne.',
             tasks : [
                 'Planing | ', 'Development (Wordpress)'
             ],
@@ -263,7 +263,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'TMS-Therapie',
             year: '2013',
-            description : 'A informationpage which covers the topic of transcranial magnetic stimulation in therapie.',
+            description : 'An information page covering the topic of transcranial magnetic stimulation in therapy.',
             tasks : [
                 'Planing | ', 'Development (Wordpress)'
             ],
@@ -284,7 +284,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Greenproperty',
             year: '2013-2015',
-            description : 'A java-web-application which supports the „Real Estate Asset Management“ of Crédit Suisse. I was involved during the creation of the first version and later on while we were implementing further features like the reporting and PDF-Creation. We used open-source technologies like Spring, Hibernate, MySQL, Primefaces, Birt and some open-source libraries.',
+            description : 'A java-web-application supporting the „Real Estate Asset Management“ of Crédit Suisse. I was involved during the creation of the first version and later on while we were implementing further features like the reporting and PDF-Creation. We used open-source technologies like Spring, Hibernate, MySQL, Primefaces, Birt and some open-source libraries.',
             tasks : [
                 'Java-Development (Spring, Hibernate, MySQL, Primefaces, Birt and some open-source libraries.)'
             ],
@@ -305,7 +305,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'DataMining for neglect-patients',
             year: '2013',
-            description : 'Bachelor thesis in the context of education for BSc in computer science. The Neglect Analysis software allows automated analysis of patient tests, which were carried out with a graphic software. The results will be presented to the user in the form of charts and serve the diagnosis. Planning and implementation of Java productively deployed application.',
+            description : 'Bachelor thesis in the context of education for BSc in computer science. The Neglect Analysis software allows automated analysis of patient tests, which were carried out with graphic software. The results are presented to the user in the form of charts and serve the diagnosis. Planning and implementation of Java productively deployed application.',
             tasks : [
                 'Planing | ', 'Java-Development (Swing, Derby, Log4j, PDFJet, JFreeChart)'
             ],
@@ -371,7 +371,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Praxis-App',
             year: '2010',
-            description : 'This was an administration-web-application for a private massage-office. The user recorded and edited patients and charged them the expenses. During and after a treatment period he had the opportunity to provide a bill to the patient or directly to the insurance. An automated PDF generator did that job. To be reminded of birthdays of customers, he could enable the feature „Birthday-Reminder“. The application was running on a web server which was operated by a notebook. I used PHP and Java-Script/AJAX as programming languages.',
+            description : 'This was an administration-web-application for a private massage salon. The user recorded and edited patients and charged them the expenses. During and after a treatment period he had the opportunity to issue a bill to the patient or directly to the insurance. An automated PDF generator did that job. To be reminded of birthdays of customers, he could enable the feature „Birthday-Reminder“. The application was running on a web server, which was operated by a notebook. I used PHP and Java-Script/AJAX as programming languages.',
             tasks : [
                 'Planing | ', 'PHP- and Java-Script-Development'
             ],

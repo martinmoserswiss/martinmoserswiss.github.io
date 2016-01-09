@@ -3,7 +3,7 @@
     <h3 ng-bind="'Work in progress (' + filteredWipArticles.length + ')'"/>
     <span ng-show="filteredWipArticles.length == 0">No projects<br/><br/></span>
     <div class="row">
-        <article ng-repeat="wipArticle in filteredWipArticles" class="6u 12u$(3) work-item">
+        <article ng-repeat="wipArticle in filteredWipArticles" class="12u 12u$(3) work-item">
             <a class="image fit"><img ng-src="{{wipArticle.imagePath}}"/></a>
             <h2 ng-bind="wipArticle.title + ' (' + wipArticle.year + ')'"/>
             <p ng-bind="wipArticle.description"/><br/>
@@ -20,8 +20,8 @@
 
             <div ng-repeat="tag in wipArticle.tags">
                 <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-            </div>
-
+            </div><br/>
+            <hr>
         </article>
     </div>
 </section>
@@ -30,7 +30,7 @@
     <h3 ng-bind="'Done and dusted (' + filteredDadArticles.length + ')'"/>
     <span ng-show="filteredDadArticles.length == 0">No projects<br/><br/></span>
     <div class="row">
-        <article ng-repeat="dadArticle in filteredDadArticles" class="6u 12u$(3) work-item">
+        <article ng-repeat="dadArticle in filteredDadArticles" class="12u 12u$(3) work-item">
             <a class="image fit"><img ng-src="{{dadArticle.imagePath}}" /></a>
             <h2 ng-bind="dadArticle.title + ' (' + dadArticle.year + ')'"/>
             <p ng-bind="dadArticle.description"/><br/>
@@ -47,7 +47,8 @@
 
             <div ng-repeat="tag in dadArticle.tags">
                 <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-            </div>
+            </div><br/>
+            <hr>
         </article>
     </div>
 </section>
@@ -56,7 +57,7 @@
     <h3 ng-bind="'Done and dusted (' + filteredInactiveArticles.length + ')'"/>
     <span ng-show="filteredInactiveArticles.length == 0">No projects<br/><br/></span>
     <div class="row">
-        <article ng-repeat="inactiveArticle in filteredInactiveArticles" class="6u 12u$(3) work-item">
+        <article ng-repeat="inactiveArticle in filteredInactiveArticles" class="12u 12u$(3) work-item">
             <a class="image fit"><img ng-src="{{inactiveArticle.imagePath}}" /></a>
             <h2 ng-bind="inactiveArticle.title + ' (' + inactiveArticle.year + ')'"/>
             <p ng-bind="inactiveArticle.description"/><br/>
@@ -73,7 +74,8 @@
 
             <div ng-repeat="tag in inactiveArticle.tags">
                 <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-            </div>
+            </div><br/>
+            <hr>
         </article>
     </div>
 </section>
