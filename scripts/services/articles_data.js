@@ -53,7 +53,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Ferienfilmfestival',
             year: '2015',
-            description : "Is a film-festival I organized with a friend and my brother. The idea behind the event, was to show all the emotions and impressions we gathered on our trips. We try to spend our free time travelling. It doesn't matter if you go surfing, skateboarding, hiking or what ever. It's always a great experience to hang out with new people and explore their country. For the first edition of our FFF we brought together six movies from six people who travelled to/around four different countries. It's great to see the commitment they put into their movies. Our goal was to store up the experience we made on these journeys forever.",
+            description : "Is a film-festival I organized with a friend and my brother. The idea behind the event, was to show all the emotions and impressions we gathered on our trips. For the first edition of our FFF we brought together six movies from six people who travelled to/around four different countries.",
             tasks : [
                 'Planing | ', 'Development (HTML, CSS, Java-Script)'
             ],
@@ -219,27 +219,6 @@ portfolioApp.factory('ArticlesDataService', function() {
             imagePath : 'images/portfolio/plusdrive/1.png'
         },
         {
-            title : 'ZH-Services',
-            year: '2014',
-            description : 'Development-support in three different Java-web-applications, which are running on SAP-platforms. Electronic registration of withholding taxes, registration und authentification of third-party applications, apprenticeship portal providing information on teachers and enabling the processing of payment of contributions.',
-            tasks : [
-                'Java-Development (SAP-Platform, Primefaces, FOP, SAML)'
-            ],
-            link: 'https://www.services.zh.ch',
-            linkText : 'https://www.services.zh.ch',
-            tags : [
-                {
-                    text : 'employee',
-                    class : 'employee'
-                },
-                {
-                    text : 'done',
-                    class : 'done'
-                }
-            ],
-            imagePath : 'images/portfolio/zhservices/1.png'
-        },
-        {
             title : 'Neurolitetraining',
             year: '2014',
             description : 'A registration- and information page for a neurology-congress in Berne.',
@@ -259,6 +238,27 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/neurolitetraining/1.png'
+        },
+        {
+            title : 'ZH-Services',
+            year: '2014',
+            description : 'Development-support in three different Java-web-applications, which are running on SAP-platforms. Electronic registration of withholding taxes, registration und authentification of third-party applications, apprenticeship portal providing information on teachers and enabling the processing of payment of contributions.',
+            tasks : [
+                'Java-Development (SAP-Platform, Primefaces, FOP, SAML)'
+            ],
+            link: 'https://www.services.zh.ch',
+            linkText : 'https://www.services.zh.ch',
+            tags : [
+                {
+                    text : 'employee',
+                    class : 'employee'
+                },
+                {
+                    text : 'done',
+                    class : 'done'
+                }
+            ],
+            imagePath : 'images/portfolio/zhservices/1.png'
         },
         {
             title : 'TMS-Therapie',
@@ -303,7 +303,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             imagePath : 'images/portfolio/greenpro/1.jpg'
         },
         {
-            title : 'DataMining for neglect-patients',
+            title : 'NAS',
             year: '2013',
             description : 'Bachelor thesis in the context of education for BSc in computer science. The Neglect Analysis software allows automated analysis of patient tests, which were carried out with graphic software. The results are presented to the user in the form of charts and serve the diagnosis. Planning and implementation of Java productively deployed application.',
             tasks : [
@@ -324,7 +324,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             imagePath : 'images/portfolio/datamining/1.jpg'
         },
         {
-            title : 'ETH Zurich DOI',
+            title : 'ETH Zurich, DOI',
             year: '2012-2013',
             description : 'ETH Zurichs DOI Desk is the official DOI registration office for Switzerlands university and research sector. I was gathering there my first experience as a employed java-developer while I was studying. It is an open-source java web-project based on the lakshmi-framework where we were using Rich-Faces, ant, glassfish, postgres, junit, log4j and some open-source libraries.',
             tasks : [
