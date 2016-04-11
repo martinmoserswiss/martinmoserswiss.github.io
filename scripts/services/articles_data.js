@@ -1,9 +1,7 @@
-'use strict';
-
 portfolioApp.factory('ArticlesDataService', function() {
 
     var srv = {};
-    
+
     srv._wipArticles = [
         {
             title : 'Bloomyo',
@@ -411,7 +409,7 @@ portfolioApp.factory('ArticlesDataService', function() {
             imagePath : 'images/portfolio/verenamoser/1.png'
         }
     ];
-    
+
     // Service implementation
     srv.getWipArticles = function () {
         return angular.copy(srv._wipArticles);
@@ -424,20 +422,20 @@ portfolioApp.factory('ArticlesDataService', function() {
     srv.getInactiveArticles = function () {
         return angular.copy(srv._inactiveArticles);
     };
-    
+
     // Public API
     return {
         getWipArticles: function () {
             return srv.getWipArticles();
-        }
-        ,
+        },
+
         getDadArticles: function () {
             return srv.getDadArticles();
         },
+
         getInactiveArticles: function () {
             return srv.getInactiveArticles();
         },
-
     };
 
 });

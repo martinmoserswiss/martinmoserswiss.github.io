@@ -6,5 +6,5 @@ portfolioApp.config(function ($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: 'templates/articles_list.html',
         controller: 'ArticlesCtrl'
-    })
+    });
 });
