@@ -4,6 +4,27 @@ portfolioApp.factory('ArticlesDataService', function() {
 
     srv._wipArticles = [
         {
+            title : 'siClaro',
+            year: '2016',
+            description : "This is a webpage which shows a collection of private pictures I tock.",
+            tasks : [
+                'Pictures | ', 'Angular'
+            ],
+            link : 'projects/siClaro/index.html',
+            linkText : 'siClaro',
+            tags : [
+                {
+                    text : 'private',
+                    class : 'private'
+                },
+                {
+                    text : '@work',
+                    class : 'wip'
+                }
+            ],
+            imagePath : 'images/portfolio/siClaro/siClaro.png'
+        },
+        {
             title : 'Bloomyo',
             year: '2015',
             description : "This is an IoT-Project I am doing with my brother. The product will help people to take care of their plants. We're using an Arduino-board we're programming with C++. Pumping water through pipes and relays. For the other software we are using Angular, Java and iOS as frontend technologies. The backend works with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
