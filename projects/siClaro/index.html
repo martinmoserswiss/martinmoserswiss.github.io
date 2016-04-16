@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SiClaro</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="css/ie8.css"/><![endif]-->
+		<!--[if lte IE 9]>
+		<link rel="stylesheet" href="css/ie9.css"/><![endif]-->
+
+		<!-- Scripts -->
+		<!--[if lte IE 8]>
+		<script src="libs/ie/html5shiv.js"></script><![endif]-->
+		<script src="libs/jquery.min.js"></script>
+    <script src="libs/angular.js"></script>
+    <script src="libs/ng-infinite-scroll.js"></script>
+		<script src="libs/angular-route.js"></script>
+
+		<!--Template Scripts -->
+		<script src="libs/main.js"></script>
+		<script src="libs/util.js"></script>
+		<script src="libs/jquery.scrolly.min.js"></script>
+		<script src="libs/skel.min.js"></script>
+		<script src="libs/skel-viewport.min.js"></script>
+		<!--[if lte IE 8]>
+		<script src="libs/ie/respond.min.js"></script><![endif]-->
+
+		<script src="scripts/app.js"></script>
+		<script src="scripts/controllers/imageListController.js"></script>
+		<script src="scripts/services/imageListDA.js"></script>
+
+	</head>
+	<body ng-app="siClaro">
+		<div ng-view/>
+	</body>
+</html>

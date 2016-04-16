@@ -1,0 +1,25 @@
+<div ng-app='siClaro' ng-controller='imageListController'>
+  <div infinite-scroll='loadMore()' infinite-scroll-distance='2'>
+    <div class="wrapper style3">
+      <article id="portfolio">
+        <div class="container">
+
+          <div class="row" ng-repeat='image in provided'>
+            <div class="12u 12u(mobile)">
+              <article class="box style2">
+                <a href="#" class="image featured">
+                  <img ng-src='images/{{image.path}}' alt="" />
+                </a>
+                <h3><a href="#" ng-bind="image.title"></a></h3>
+                <p>
+                  <span ng-bind="image.subtitle"/><span>, </span><span ng-bind="image.year"/>
+                </p>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
