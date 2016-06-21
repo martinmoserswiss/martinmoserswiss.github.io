@@ -32,7 +32,8 @@ module.exports = function(config) {
       'scripts/app.js',
       "scripts/controllers/articles_list.js",
       "scripts/services/articles_data.js",
-      'scripts/tests/*.js'
+      'scripts/tests/*.js',
+      'scripts/calculator/*.js'
     ],
 
 
