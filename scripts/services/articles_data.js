@@ -4,27 +4,6 @@ portfolioApp.factory('ArticlesDataService', function() {
 
     srv._wipArticles = [
         {
-            title : 'siClaro',
-            year: '2016',
-            description : "This is a webpage which shows a collection of private pictures I tock.",
-            tasks : [
-                'Pictures | ', 'Angular'
-            ],
-            link : 'projects/siClaro/index.html',
-            linkText : 'siClaro',
-            tags : [
-                {
-                    text : 'private',
-                    class : 'private'
-                },
-                {
-                    text : '@work',
-                    class : 'wip'
-                }
-            ],
-            imagePath : 'images/portfolio/siClaro/siClaro.png'
-        },
-        {
             title : 'Bloomyo',
             year: '2015',
             description : "This is an IoT-Project I am doing with my brother. The product will help people to take care of their plants. We're using an Arduino-board we're programming with C++. Pumping water through pipes and relays. For the other software we are using Angular, Java and iOS as frontend technologies. The backend works with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
@@ -44,7 +23,10 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/bloomyo/1.png'
-        },
+        }
+    ];
+
+    srv._dadArticles = [
         {
             title : 'Jumpin',
             year: '2015',
@@ -65,10 +47,28 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/jumpin/1.png'
-        }
-    ];
-
-    srv._dadArticles = [
+        },
+        {
+            title : 'siClaro',
+            year: '2016',
+            description : "This is a webpage which shows a collection of private pictures I tock.",
+            tasks : [
+                'Pictures | ', 'Angular'
+            ],
+            link : 'projects/siClaro/index.html',
+            linkText : 'siClaro',
+            tags : [
+                {
+                    text : 'private',
+                    class : 'private'
+                },
+                {
+                    text : '@work',
+                    class : 'wip'
+                }
+            ],
+            imagePath : 'images/portfolio/siClaro/siClaro.png'
+        },
         {
             title : 'Ferienfilmfestival',
             year: '2015',
@@ -362,16 +362,19 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/doi/1.png'
-        },
+        }
+    ];
+
+    srv._inactiveArticles = [
         {
-            title : 'Vögeli AG',
+            title : 'Verena Moser',
             year: '2010',
-            description : 'A Portrait of the construction-company in Limpach, Switzerland. At that time I created that web-page I was working for that company as a construction worker too. The work was hard but I appreciate that time as a good experience in my life. I enjoyed the photo-project where me and a friend took portrait-pictures of all 35 employees. Finally we integrated them on the web-page which was the project-completion and afterwards the time with the people too. The web-page is maintainable by a tiny CMS which enables the user to edit the employees and news-posts. I used PHP and Java-Script/AJAX as programming languages.',
+            description : 'This project was an election-page for Verena Moser when she ran for the Swiss national council. The page contained a tiny CMS to edit news posts and was written in PHP and Java-Script.',
             tasks : [
-                'Planing |', 'PHP- and Java-Script-Development'
+                'Planing | ', 'PHP- and Java-Script-Development'
             ],
-            link: 'http://www.voegelibau.ch',
-            linkText : 'http://www.voegelibau.ch',
+            link: '',
+            linkText : '',
             tags : [
                 {
                     text : 'private',
@@ -382,11 +385,8 @@ portfolioApp.factory('ArticlesDataService', function() {
                     class : 'done'
                 }
             ],
-            imagePath : 'images/portfolio/voegeli/1.png'
-        }
-    ];
-
-    srv._inactiveArticles = [
+            imagePath : 'images/portfolio/verenamoser/1.png'
+        },
         {
             title : 'Praxis-App',
             year: '2010',
@@ -409,14 +409,14 @@ portfolioApp.factory('ArticlesDataService', function() {
             imagePath : 'images/portfolio/praxisapp/1.png'
         },
         {
-            title : 'Verena Moser',
+            title : 'Vögeli AG',
             year: '2010',
-            description : 'This project was an election-page for Verena Moser when she ran for the Swiss national council. The page contained a tiny CMS to edit news posts and was written in PHP and Java-Script.',
+            description : 'This was a Portrait of the construction-company in Limpach, Switzerland. At that time I created that web-page I was working for that company as a construction worker too. The work was hard but I appreciate that time as a good experience in my life. I enjoyed the photo-project where me and a friend took portrait-pictures of all 35 employees. Finally we integrated them on the web-page which was the project-completion and afterwards the time with the people too. The web-page was maintainable by a tiny CMS which enables the user to edit the employees and news-posts. I used PHP and Java-Script/AJAX as programming languages.',
             tasks : [
-                'Planing | ', 'PHP- and Java-Script-Development'
+                'Planing |', 'PHP- and Java-Script-Development'
             ],
-            link: '',
-            linkText : '',
+            link: 'http://www.voegelibau.ch',
+            linkText : 'http://www.voegelibau.ch',
             tags : [
                 {
                     text : 'private',
@@ -427,8 +427,8 @@ portfolioApp.factory('ArticlesDataService', function() {
                     class : 'done'
                 }
             ],
-            imagePath : 'images/portfolio/verenamoser/1.png'
-        }
+            imagePath : 'images/portfolio/voegeli/1.png'
+        },
     ];
 
     // Service implementation
