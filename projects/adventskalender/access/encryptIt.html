@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Encrypt it!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+      body {font-family: 'Open Sans', sans-serif; font: white; background-image: url('img/matrix_background.gif'); background-size: 100%}
+    </style>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $("#qrCode").attr("src", "img/meme.jpg");
+      });
+    </script>
+  </head>
+
+  <body style="width: 100vw;
+    height: 100vh;
+    overflow: hidden;">
+
+    <div class="w3-display-middle" id="portraitView">
+      <div class="w3-container w3-center">
+        <img id="qrCode" class="w3-center"/><br/>
+      </div>
+      <br/><br/>
+      <div style="font-family: 'Open Sans', sans-serif; color: white; background-color:purple;" class="w3-container w3-margin-top" id="portraitViewWrapper">
+        <br/>
+        <span>Yeah Marsimoto bald hast du es geschafft!<br/>
+          Befolge nun noch die letzten Schritte bevor du Dir dein Geschenk ansehen kannst:</span>
+          <ul>
+              <li>Lade Dir eine QR-Code Reader-App auf dein Handy herunter. Z.B. <a href="https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner&hl=de" target="_blank">QR Code Reader</a></li>
+              <li>Scanne den QR-Code mit der App</li>
+              <li>Öffne die resultierende URL</li>
+              <li>Installiere das Geschenk</li>
+          </ul>
+          <br/>
+      </div>
+    </div>
+  </body>
+</html>
