@@ -20,7 +20,7 @@ angular.module('adventskalender', ['ngRoute'])
     case "3":
         $scope.title = 'Etwas gewagtes';
         $scope.text = 'Frag öper uf dr Strass wo du chasch Schwümmflügeli choufe.';
-        $scope.imageUrl = "images/schwimmflügel.jpeg"
+        $scope.imageUrl = "images/schwimmfluegel.jpeg"
         $scope.link = ""
         break;
     case "4":
