@@ -30,12 +30,16 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.link = ""
         break;
     case "5":
-        $scope.title = 'Herzlich Willkommen';
-        $scope.text = 'Wir freuen uns Sie auf der';
+        $scope.title = '';
+        $scope.text = '';
+        $scope.imageUrl = ""
+        $scope.link = ""
         break;
     case "6":
-        $scope.title = 'Herzlich Willkommen';
-        $scope.text = 'Wir freuen uns Sie auf der';
+        $scope.title = '';
+        $scope.text = '';
+        $scope.imageUrl = ""
+        $scope.link = ""
         break;
     default: console.log('Not applicable...');
   }
