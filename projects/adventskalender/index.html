@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html ng-app="adventskalender">
 	<head>
 		<title>1.Dezember 2016</title>
 		<meta charset="utf-8" />
@@ -14,25 +14,32 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
 
+		<!-- libs -->
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+
+		<!-- app scripts -->
+    <script src="js/app.js"></script>
+
+	</head>
+
+	<body class="is-loading">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Main -->
-					<section id="main">
+					<section id="main" ng-controller="HomeCtrl">
 						<header>
 							<span class="avatar"><img src="https://dummyimage.com/122x122/d59c17/fff&text=24.12" alt="" /></span>
-							<h1></h1>
-							<p>Eine Tanzeinlage von mir...</p>
-							<iframe width="854" height="480" src="https://www.youtube.com/embed/f7mQGrRL0cI" frameborder="0" allowfullscreen></iframe>
+							<h1 ng-bind="welcomeTitle"></h1>
+					    <p ng-bind="welcomeText"></p>
 						</header>
 					</section>
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li>MARTIN + MARIETTA = &hearts;</li>
+							<li>MARTIN + MARIETTA = <span style="color:red;">&hearts;</span></li>
 						</ul>
 					</footer>
 
