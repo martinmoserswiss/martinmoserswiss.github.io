@@ -1,5 +1,7 @@
 <header ng-controller="HomeCtrl">
   <span class="avatar"><img ng-src="{{avatarUrl}}" alt="" /></span>
-  <h1 ng-bind="welcomeTitle"></h1>
-  <p ng-bind="welcomeText"></p>
+  <h1 ng-bind="title"></h1>
+  <p ng-bind="text"></p>
+  <img ng-src="{{imageUrl}}" ng-if="imageUrl" />
+  <a ng-href="{{link}}" ng-if="link">Click me</a>
 </header>
