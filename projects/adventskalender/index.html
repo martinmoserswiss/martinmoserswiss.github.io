@@ -29,12 +29,8 @@
 			<div id="wrapper">
 
 				<!-- Main -->
-					<section id="main" ng-controller="HomeCtrl">
-						<header>
-							<span class="avatar"><img src="https://dummyimage.com/122x122/d59c17/fff&text=24.12" alt="" /></span>
-							<h1 ng-bind="welcomeTitle"></h1>
-					    <p ng-bind="welcomeText"></p>
-						</header>
+					<section id="main">
+						<div ng-view/>
 					</section>
 				<!-- Footer -->
 					<footer id="footer">
