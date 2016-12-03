@@ -1,0 +1,11 @@
+{
+  "name": "adventskalender",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is the adventskalender für marsimotto",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-route": "^1.5.9"
+  },
+  "author": "Martin Moser"
+}
