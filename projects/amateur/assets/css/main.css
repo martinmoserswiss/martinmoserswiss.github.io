@@ -2754,6 +2754,10 @@
 				border: 0;
 			}
 
+			#header h1 a img{
+				margin-top: 10px;
+			}
+
 		#header nav {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
