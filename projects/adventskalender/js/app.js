@@ -7,7 +7,7 @@ angular.module('adventskalender', ['ngRoute'])
     case "1":
         $scope.title = 'Skate or die!';
         $scope.text = 'Einmal mit dem Skateboard um das Haus.';
-        $scope.imageUrl = 'images/skate.png'
+        $scope.imageUrl = 'skate.png'
         $scope.link = ""
         break;
     case "2":
@@ -26,19 +26,19 @@ angular.module('adventskalender', ['ngRoute'])
     case "4":
         $scope.title = 'Descansar (Ausruhen)';
         $scope.text = 'Lass es dir gut gehen und nimm ein warmes Bad';
-        $scope.imageUrl = 'images/bad.png'
+        $scope.imageUrl = 'bad.png'
         $scope.link = ""
         break;
     case "5":
         $scope.title = 'Gute Laune!';
         $scope.text = 'Weil das Wochenende so toll war... Ein YB-Match mit mir ist offeriert!';
-        $scope.imageUrl = "images/ybdich.png"
+        $scope.imageUrl = "ybdich.png"
         $scope.link = ""
         break;
     case "6":
-        $scope.title = '';
-        $scope.text = '';
-        $scope.imageUrl = ""
+        $scope.title = 'Einfach so...';
+        $scope.text = 'Danke das es dich so gibt wie du bist!';
+        $scope.imageUrl = "wiedubist.png"
         $scope.link = ""
         break;
     default: console.log('Not applicable...');
