@@ -30,9 +30,9 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.link = ""
         break;
     case "5":
-        $scope.title = '';
-        $scope.text = '';
-        $scope.imageUrl = ""
+        $scope.title = 'Gute Laune!';
+        $scope.text = 'Weil das Wochenende so toll war... Ein YB-Match mit mir ist offeriert!';
+        $scope.imageUrl = "images/ybdich.png"
         $scope.link = ""
         break;
     case "6":
