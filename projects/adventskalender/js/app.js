@@ -1,8 +1,16 @@
 angular.module('adventskalender', ['ngRoute'])
 
 .controller('HomeCtrl', ['$scope', '$routeParams', function($scope, $routeParams) {
-  $scope.avatarUrl = 'https://dummyimage.com/122x122/d59c17/fff&text='+$routeParams.day+'.12';
+
   var day = $routeParams.day;
+
+  if (day == "0") {
+    var dateObj = new Date();
+    day = dateObj.getUTCDate() + "";
+  }
+
+  $scope.avatarUrl = 'https://dummyimage.com/122x122/d59c17/fff&text='+day+'.12';
+
   switch (day) {
     case "1":
         $scope.title = 'Skate or die!';
