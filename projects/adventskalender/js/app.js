@@ -57,7 +57,7 @@ angular.module('adventskalender', ['ngRoute'])
         break;
     case "8":
         $scope.title = 'Morro de São Paulo';
-        $scope.text = 'Ich habe in diesem Moment berechtigterweise keine Antwort auf die Frage gefunden und tue es auch jetzt nicht. Gibt es ein schöneres Bild von dir als dieses hier? #schönheit #lässig #love #marsi-king-of-the-beauties';
+        $scope.text = 'Ich habe in diesem Moment berechtigterweise nein auf die Frage geantwortet und tue es auch jetzt. Gibt es ein schöneres Bild von dir als dieses hier? #schönheit #lässig #love #marsi-king-of-the-beauties';
         $scope.imageUrl = "salvador.png"
         $scope.link = ""
         break;
