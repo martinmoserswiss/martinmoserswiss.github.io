@@ -55,6 +55,18 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.imageUrl = "adiletten.png"
         $scope.link = ""
         break;
+    case "8":
+        $scope.title = 'Morro de São Paulo';
+        $scope.text = 'Ich habe mich in diesem Moment nicht getäuscht und tue es auch jetzt nicht. Gibt es ein schöneres Bild von dir als dieses hier? #schönheit #lässig #love';
+        $scope.imageUrl = "salvador.png"
+        $scope.link = ""
+        break;
+    case "9":
+        $scope.title = 'Faus igs mau söt vergässä...';
+        $scope.text = 'So würd ig mi i guet 40 Jahr o gseh! (natürlich mit dir näbä dra...)';
+        $scope.imageUrl = "zmorge.png"
+        $scope.link = ""
+        break;
     default: console.log('Not applicable...');
   }
 }])
