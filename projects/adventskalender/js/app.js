@@ -67,6 +67,31 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.imageUrl = "zmorge.png"
         $scope.link = ""
         break;
+    case "10":
+        $scope.title = 'Gute Laune Musik';
+        $scope.text = 'Ein Lied dass mich daran erinnert wie einfach es gehen kann.';
+        $scope.imageUrl = "milk.png"
+        $scope.link = "https://www.youtube.com/watch?v=6vtKz6YwSD4"
+        break;
+    case "11":
+        $scope.title = 'Schenken macht Freude...';
+        $scope.text = 'Hat es in Berlin nicht etwas das ich gebrauchen könnte? ;-)';
+        $scope.imageUrl = "hundeBlick.png"
+        $scope.link = ""
+        break;
+    case "12":
+        $scope.title = 'Heute schenke ich dir ein Fisch';
+        $scope.text = 'Bitte gehe ins Migros/Coop und kaufe dir ein Forelle. Brutzle sie und geniesse dazu zwei, drei Kartoffeln mit Öl.';
+        $scope.imageUrl = "forelle.png"
+        $scope.link = ""
+        break;
+
+    case "13":
+        $scope.title = 'Bienvenidos a Santa Teresa';
+        $scope.text = 'Das Kunstwerk ist abholbereit. Klicke den Link unten um dort hin zu gelangen. Es ist reserviert für Marietta.';
+        $scope.imageUrl = "santateresa.png"
+        $scope.link = "http://www.pixelfarm.ch"
+        break;
     default: console.log('Not applicable...');
   }
 }])
