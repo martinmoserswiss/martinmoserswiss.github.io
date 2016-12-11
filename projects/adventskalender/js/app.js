@@ -85,7 +85,6 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.imageUrl = "forelle.png"
         $scope.link = ""
         break;
-
     case "13":
         $scope.title = 'Bienvenidos a Santa Teresa';
         $scope.text = 'Das Kunstwerk ist abholbereit. Klicke den Link unten um dort hin zu gelangen. Es ist reserviert für Marietta.';
