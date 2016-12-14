@@ -103,6 +103,12 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.imageUrl = "cool.png"
         $scope.link = ""
         break;
+    case "16":
+        $scope.title = 'Mein lieblings Weihnachtssong';
+        $scope.text = 'Finde ich ein geiles Lied. Ist doch nicht alles Scheisse :-p';
+        $scope.imageUrl = "carolofthebells.png"
+        $scope.link = "https://www.youtube.com/watch?v=Wq73h6XZQGA"
+        break;
     default: console.log('Not applicable...');
   }
 }])
