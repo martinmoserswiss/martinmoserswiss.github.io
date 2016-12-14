@@ -91,6 +91,18 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.imageUrl = "santateresa.png"
         $scope.link = "http://www.pixelfarm.ch"
         break;
+    case "14":
+        $scope.title = 'Noch einmal schlafen';
+        $scope.text = 'Und dann kommst du mich in den Weihnachtsferien besuchen :-) Ich freue mich sehr! #nervös #christmas #einmalSchlafen';
+        $scope.imageUrl = "schlafen.png"
+        $scope.link = ""
+        break;
+    case "15":
+        $scope.title = 'Cool lebt es sich eifach besser';
+        $scope.text = 'Du bisch eifach geng no so verdammt cool, dass igs mängisch gar nid cha gloubä ;-)';
+        $scope.imageUrl = "cool.png"
+        $scope.link = ""
+        break;
     default: console.log('Not applicable...');
   }
 }])
