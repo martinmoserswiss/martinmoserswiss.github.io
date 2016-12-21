@@ -117,7 +117,7 @@ angular.module('adventskalender', ['ngRoute'])
         break;
     case "18":
         $scope.title = 'Ribeira d\'Ilhas';
-        $scope.text = 'Ich hab dich schon lange nicht mehr so eine gute Welle surfen wie an diesem Abend! Go 4 it Marie!';
+        $scope.text = 'Ich hab dich schon lange nicht mehr auf so einer schönen Welle surfen gesehen wie an diesem Abend! Go-4-it Marie-Lou-Bega!';
         $scope.imageUrl = 'ribeira.png'
         $scope.link = ''
         break;
@@ -135,7 +135,7 @@ angular.module('adventskalender', ['ngRoute'])
         break;
     case "21":
         $scope.title = 'What came of the things we once believed?';
-        $scope.text = 'A song that makes you wanna lie down on some heights and watch the whole world collapse.﻿';
+        $scope.text = '\"A song that makes you wanna lie down on some heights and watch the whole world collapse.﻿\"';
         $scope.imageUrl = "ocean.png"
         $scope.link = "https://www.youtube.com/watch?v=g-n4U2KZZVs"
         break;
@@ -165,7 +165,7 @@ angular.module('adventskalender', ['ngRoute'])
         break;
     case "26":
         $scope.title = 'Eine Runde Skate mit mir!';
-        $scope.text = 'Wir fahren eine Runde um dein Block! Damit du nicht einrostest ist das zwingend nötig!';
+        $scope.text = 'Wir fahren eine Runde um deinen Block! Damit du nicht einrostest ist das zwingend nötig!';
         $scope.imageUrl = "runde_skate.png"
         $scope.link = ""
         break;
