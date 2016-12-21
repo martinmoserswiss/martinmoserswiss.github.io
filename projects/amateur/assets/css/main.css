@@ -2807,7 +2807,7 @@
 					}
 
 					#header nav a[href="#menu"]:hover {
-						background-color: rgba(255, 255, 255, 0.025);
+						background-color: rgb(173, 92, 42, 0.25);
 					}
 
 					#header nav a[href="#menu"]:active {
@@ -2934,7 +2934,7 @@
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #ad5c2a;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -2990,7 +2990,7 @@
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #A5663F;
 					}
 
 		@media screen and (max-width: 736px) {
