@@ -109,6 +109,67 @@ angular.module('adventskalender', ['ngRoute'])
         $scope.imageUrl = "carolofthebells.png"
         $scope.link = "https://www.youtube.com/watch?v=Wq73h6XZQGA"
         break;
+    case "17":
+        $scope.title = 'Hier schaust du lustig!';
+        $scope.text = 'Es ist eine Mischung zwischen, \'scheiss kerl, ich will jetzt nicht fotografiert werden.\' und \'ich probiere es trotzdem\'.';
+        $scope.imageUrl = "gurnigel.png"
+        $scope.link = ""
+        break;
+    case "18":
+        $scope.title = 'Ribeira d\'Ilhas';
+        $scope.text = 'Ich hab dich schon lange nicht mehr so eine gute Welle surfen wie an diesem Abend! Go 4 it Marie!';
+        $scope.imageUrl = 'ribeira.png'
+        $scope.link = ''
+        break;
+    case "19":
+        $scope.title = 'Oui tu peux parler français!';
+        $scope.text = '"Ich will französisch lernen. Auch wenn es nur wenig ist. Jetzt fällt es mir noch einfach, später werde ich viel mehr Mühe haben die Sprache zu lernen." Sende mir bitte diese drei kleinen Sätze auf französich als Sprachnachricht auf Whatsapp. Danke :-)';
+        $scope.imageUrl = "francais.png"
+        $scope.link = ""
+        break;
+    case "20":
+        $scope.title = 'Baja with Love';
+        $scope.text = 'Das war an einem Abend als ich das erste Nutella von dir gegessen habe. Obschon ich unendlich weit weg war von dir, war ich plötzlich ganz nah!';
+        $scope.imageUrl = "baja.png"
+        $scope.link = ""
+        break;
+    case "21":
+        $scope.title = 'What came of the things we once believed?';
+        $scope.text = 'A song that makes you wanna lie down on some heights and watch the whole world collapse.﻿';
+        $scope.imageUrl = "ocean.png"
+        $scope.link = "https://www.youtube.com/watch?v=g-n4U2KZZVs"
+        break;
+    case "22":
+        $scope.title = 'Erfrischung!';
+        $scope.text = 'Wasche dir in der Aare das Gesicht und sende mir ein Bild von deinem nasen Kopf. :-D';
+        $scope.imageUrl = "aare.png"
+        $scope.link = ""
+        break;
+    case "23":
+        $scope.title = 'It\'s time to get a shot';
+        $scope.text = 'Gib deinen Girls einen Shot aus ;-) Martim Manhã zahlt!';
+        $scope.imageUrl = "shot.png"
+        $scope.link = ""
+        break;
+    case "24":
+        $scope.title = 'Foamie-Love';
+        $scope.text = 'Wenn du das nächste mal deine Sachen für PT packst, werde ich dein neues Board wachsen! <3';
+        $scope.imageUrl = "foamie.png"
+        $scope.link = ""
+        break;
+    case "25":
+        $scope.title = 'Chräueli dim Mami id Nase stecke';
+        $scope.text = 'Geniesse die Zeit mit Mami. Zum Beispiel mit einem Chräueli in der Nase? :-D';
+        $scope.imageUrl = "murmel.png"
+        $scope.link = ""
+        break;
+    case "26":
+        $scope.title = 'Eine Runde Skate mit mir!';
+        $scope.text = 'Wir fahren eine Runde um dein Block! Damit du nicht einrostest ist das zwingend nötig!';
+        $scope.imageUrl = "runde_skate.png"
+        $scope.link = ""
+        break;
+
     default: console.log('Not applicable...');
   }
 }])
