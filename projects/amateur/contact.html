@@ -34,8 +34,10 @@
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="vision.html">Vision</a></li>
+								<!--
 								<li><a href="gallery.html">Galerie / Shop</a></li>
 								<li><a href="projects.html">Projekte</a></li>
+								-->
                 <li><a href="contact.html">Kontakt</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -56,27 +58,27 @@
 							<div class="wrapper">
 								<div class="inner">
 									<section>
-                    <form method="post" action="#">
+                    <form name="contact" method="post" action="registerContact.php">
                       <div class="row uniform">
                         <div class="6u 12u$(xsmall)">
-                          <label for="demo-name">Name</label>
-                          <input type="text" name="demo-name" id="demo-name" value="" />
+                          <label for="name">Name</label>
+                          <input type="text" name="name" id="name" value="" />
                         </div>
                         <div class="6u$ 12u$(xsmall)">
-                          <label for="demo-email">Email</label>
-                          <input type="email" name="demo-email" id="demo-email" value="" />
+                          <label for="email">Email</label>
+                          <input type="email" name="email" id="email" value="" />
                         </div>
                         <div class="6u$ 12u$(small)">
-                          <input type="checkbox" id="demo-human" name="demo-human" unchecked>
-                          <label for="demo-human">Ich bin kein Roboter</label>
+                          <input type="checkbox" id="human" name="human" unchecked>
+                          <label for="human">Ich bin kein Roboter</label>
                         </div>
                         <div class="12u$">
-                          <label for="demo-message">Anfrage</label>
-                          <textarea name="demo-message" id="demo-message" rows="6"></textarea>
+                          <label for="message">Anfrage</label>
+                          <textarea name="message" id="message" rows="6"></textarea>
                         </div>
                         <div class="12u$">
                           <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="special" /></li>
+                            <li><input type="submit" value="Absenden" class="special" /></li>
                           </ul>
                         </div>
                       </div>
