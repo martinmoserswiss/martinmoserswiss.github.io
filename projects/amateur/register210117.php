@@ -90,10 +90,8 @@ if(!isset($_POST['prename']) or !isset($_POST['name']) or !isset($_POST['email']
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="vision.html">Vision</a></li>
-                <!--
 								<li><a href="gallery.html">Galerie / Shop</a></li>
 								<li><a href="projects.html">Projekte</a></li>
-								-->
 								<li><a href="contact.html">Kontakt</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -112,8 +110,13 @@ if(!isset($_POST['prename']) or !isset($_POST['name']) or !isset($_POST['email']
 
 					<section id="footer">
 						<div class="inner">
-							<ul class="copyright">
-								<li>&copy; Amateur Verein</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Umsetzung: <a href="http://martinmoserswiss.github.io" target="_blank">Martim Manhã</a></li>
+              <ul class="copyright">
+								<li>&copy; Amateur Verein</li>
+								<li><a href="impressum.html">Impressum</a></li>
+								<li>
+									<a href="https://www.facebook.com/vereinamateur" class="icon fa-facebook" target="_blank"><span class="label">@vereinamateur</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="https://www.instagram.com/verein.amateur_probieren" class="icon fa-instagram" target="_blank"><span class="label">@verein.amateur_probieren</span></a>
+								</li>
 							</ul>
 						</div>
 					</section>

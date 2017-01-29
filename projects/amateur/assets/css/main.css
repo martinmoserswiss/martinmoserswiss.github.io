@@ -2635,7 +2635,7 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 3;
 			}
 
 		}
@@ -3057,12 +3057,17 @@
 
 			#banner .logo .icon {
 				border-radius: 100%;
+				/*
 				border: solid 2px rgba(255, 255, 255, 0.125);
-				cursor: default;
-				display: inline-block;
 				font-size: 2em;
 				height: 2.25em;
 				line-height: 2.25em;
+				*/
+				cursor: default;
+				display: inline-block;
+
+
+
 				text-align: center;
 				width: 2.25em;
 			}
@@ -3157,7 +3162,7 @@
 				}
 
 					#banner .logo .icon {
-						font-size: 1.5em;
+						/*font-size: 1.5em;*/
 					}
 
 				#banner h2 {
