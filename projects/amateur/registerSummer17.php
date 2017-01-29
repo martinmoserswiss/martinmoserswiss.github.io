@@ -1,48 +1,28 @@
 <?php
 session_start();
 
-$pageTitle = "";
+$title = "";
 $subTitle = "";
 $message = "";
 
-$title = "";
-$artist = "";
-$description = "";
-$negotiationPrice = "";
-
-$prename = "";
-$name = "";
-$address = "";
-$zipCity = "";
-$email = "";
-$human = "";
-
 $email_to = "verein.amateur@gmail.com";
-$email_subject = "Bestellungs-Anfrage auf amateurkunst.ch";
+$email_subject = "Anmeldung für Probieren im Frühsommer 2017";
 
 $valid = false;
 
-if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['description']) or !isset($_POST['negotiationPrice']) or !isset($_POST['prename']) or !isset($_POST['name']) or !isset($_POST['address']) or !isset($_POST['zipCity']) or !isset($_POST['email']) or !isset($_POST['human'])) {
-    $pageTitle = "Ungültige Formularwerte 😕";
+if(!isset($_POST['prename']) or !isset($_POST['name']) or !isset($_POST['email']) or !isset($_POST['art']) or !isset($_POST['human'])) {
+    $title = "Ungültige Formularwerte :(";
     $subTitle = "";
-    $message = "Sorry, könntest du bitte das ganze Kontakt-Formular ausfüllen? Danke";
+    $message = "Sorry, könntest du bitte das ganze Anmelde-Formular ausfüllen? Danke";
 } else {
-    $title = $_POST['title']; // required
-    $artist = $_POST['artist']; // required
-    $description = $_POST['description']; // required
-    $negotiationPrice = $_POST['negotiationPrice']; // required
-
     $prename = $_POST['prename']; // required
     $name = $_POST['name']; // required
-    $address = $_POST['address']; // required
-    $zipCity = $_POST['zipCity']; // required
     $email = $_POST['email']; // required
+    $art = $_POST['art']; // not required
     $human = $_POST['human']; // required
 
-    if(!empty($title) and !empty($artist) and !empty($description)
-    and !empty($negotiationPrice) and !empty($prename) and !empty($name)
-    and !empty($address) and !empty($zipCity) and !empty($email) and !empty($human)) {
-        $email_message = "Neue Bestellungs-Anfrage\n\n";
+    if(!empty($prename) and !empty($name) and !empty($email) and !empty($art) and !empty($human)) {
+        $email_message = "Neue Anmeldung für Probieren im Frühsommer 2017\n\n";
 
         function clean_string($string) {
           $bad = array("content-type","bcc:","to:","cc:","href");
@@ -51,14 +31,10 @@ if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['descrip
 
         $email_message .= "Vorname: ".clean_string($prename)."\n";
         $email_message .= "Name: ".clean_string($name)."\n";
-        $email_message .= "Adresse: ".clean_string($address)."\n";
-        $email_message .= "PLZ & Ort: ".clean_string($zipCity)."\n";
-        $email_message .= "Email: ".clean_string($email)."\n\n\n";
-        $email_message .= "Objekt\n";
-        $email_message .= "Produkt-Titel: ".clean_string($title)."\n";
-        $email_message .= "Künstler: ".clean_string($artist)."\n";
-        $email_message .= "Beschreibung: ".clean_string($description)."\n";
-        $email_message .= "Verhandlungspreis: ".clean_string($negotiationPrice)."\n";
+        $email_message .= "Email: ".clean_string($email)."\n";
+        $email_message .= "Kunst: ".clean_string($art)."\n\n\n";
+
+        $email_message .= "Eine Excelzeile:\n$prename\t$name\t$email\t$art\t\n";
 
         // create email headers
         $headers = 'From: '.$email."\r\n".
@@ -66,12 +42,12 @@ if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['descrip
         'X-Mailer: PHP/' . phpversion();
         @mail($email_to, $email_subject, $email_message, $headers);
 
-        $pageTitle = "Danke! 🎉";
-        $subTitle = "Die Anfrage wurde erfolgreich überreicht.";
-        $message = "Wir werden uns umgehend bei Dir melden.";
+        $title = "Danke! 🎉";
+        $subTitle = "Die Anmeldung war erfolgreich.";
+        $message = "Wir werden uns umgehend bei dir melden.";
 
     } else {
-        $pageTitle = "Ungültige Anfrage 😕";
+        $title = "Ungültige Anmeldung :(";
         $subTitle = "";
         $message = "Deine übertragenen Formularwerte haben einen Fehler verursacht.";
     }
@@ -86,7 +62,7 @@ if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['descrip
 -->
 <html>
 	<head>
-		<title>AMATEUR - Bestellungsstatus</title>
+		<title>AMATEUR - Anmeldestatus</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -126,7 +102,7 @@ if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['descrip
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-                <h2><?php echo "$pageTitle"; ?></h2>
+                <h2><?php echo "$title"; ?></h2>
 								<span><?php echo "$subTitle"; ?> <?php echo "$message"; ?></span>
 							</div>
 						</header>
