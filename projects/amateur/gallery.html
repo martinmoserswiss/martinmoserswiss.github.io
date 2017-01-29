@@ -47,7 +47,9 @@
 						<header>
 							<div class="inner">
 								<h2>Galerie / Shop</h2>
-								<span>Wir verkaufen auf Anfrage die ausgestellten Objekte. Wir freuen uns über dein Interesse.</span>
+								<span>Wir verkaufen auf Anfrage die ausgestellten Objekte. Wir freuen uns über dein Interesse. 🙌</span><br/><br/>
+								<h3>Ablauf einer Kaufanfrage</h3>
+								<span>Bei einer Kaufanfrage wird vom Verein Amateur beim Künstler die Verfügbarkeit des gewünschten Kunstwerks geprüft. Ist das Kunstwerk erhältlich, wird dem Käufer eine Zahlungsaufforderung zugesandt, welche innerhalb von 10 Tagen beglichen werden soll. Bei erfolgter Zahlung und Verfügbarkeit wird das Kunstwerk dem Käufer zugestellt. Die korrekte Zustellung ist Sache des Künstlers.</span>
 							</div>
 						</header>
 
@@ -55,16 +57,86 @@
 							<div class="wrapper">
 								<div class="inner">
 									<section>
-										<h3 class="major">Ausstellung vom 23.November 2016</h3>
+										<h3 class="major">Ausstellungs-Objekte</h3>
 										<div class="box alt">
 											<div class="row uniform">
-												<div class="12u"><span class="image fit"><img src="images/shop/mlk.png" alt="" /><b>MLK</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 100x140cm<br/>CHF 3500.-</span><a href="#" class="button">Bestellen</a></div>
-												<div class="4u"><span class="image fit"><img src="images/shop/bobMarley1.png" alt="" /><b>Bob Marley</b><br/>Marvin Kangsen<br/>Fine Art Papier (308g), 50x70cm<br/>CHF 130.-</span><a href="#" class="button">Bestellen</a></div>
-												<div class="4u"><span class="image fit"><img src="images/shop/bobMarley2.png" alt="" /><b>Bob Marley</b><br/>Marvin Kangsen<br/>Öl auf Leinwand, 50x70cm<br/>CHF 3500.-</span><a href="#" class="button">Bestellen</a></div>
-												<div class="4u"><span class="image fit"><img src="images/shop/jCole.png" alt="" /><b>J Cole</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 57x75cm<br/>CHF 2000.-</span><a href="#" class="button">Bestellen</a></div>
-												<div class="4u"><span class="image fit"><img src="images/shop/laurynHill.png" alt="" /><b>Lauryn Hill</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 57x57cm<br/>CHF 1800.-</span><a href="#" class="button">Bestellen</a></div>
-												<div class="4u"><span class="image fit"><img src="images/shop/kendrickLamar.png" alt="" /><b>Kendrick Lamar</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 40x50cm<br/>CHF 1200.-</span><a href="#" class="button">Bestellen</a></div>
-												<div class="4u"><span class="image fit"><img src="images/shop/ladyInJamaica.png" alt="" /><b>Lady in Jamaica</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 140x200cm<br/>CHF 7900.-</span><a href="#" class="button">Bestellen</a></div>
+												<div class="12u">
+													<span class="image fit"><img src="images/shop/mlk.png" alt="" /><b>MLK</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 100x140cm<br/>CHF 3500.-</span>
+													<form method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/mlk.png"/>
+														<input name="title" type="hidden" value="MLK"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Acryl auf Leinwand, 100x140cm"/>
+														<input name="negotiationPrice" type="hidden" value="3500"/>
+														<input type="submit" value="Bestellen" class="special" />
+			                    </form>
+												</div>
+												<div class="4u">
+													<span class="image fit"><img src="images/shop/bobMarley1.png" alt="" /><b>Bob Marley</b><br/>Marvin Kangsen<br/>Fine Art Papier (308g), 50x70cm<br/>CHF 130.-</span>
+													<form method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/bobMarley1.png"/>
+														<input name="title" type="hidden" value="Bob Marley"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Fine Art Papier (308g), 50x70cm"/>
+														<input name="negotiationPrice" type="hidden" value="130"/>
+														<input type="submit" value="Bestellen" />
+			                    </form>
+												</div>
+												<div class="4u">
+													<span class="image fit"><img src="images/shop/bobMarley2.png" alt="" /><b>Bob Marley</b><br/>Marvin Kangsen<br/>Öl auf Leinwand, 50x70cm<br/>CHF 3500.-</span>
+													<form name="mlk" method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/bobMarley2.png"/>
+														<input name="title" type="hidden" value="Bob Marley"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Öl auf Leinwand, 50x70cm"/>
+														<input name="negotiationPrice" type="hidden" value="3500"/>
+														<input type="submit" value="Bestellen" />
+			                    </form>
+												</div>
+												<div class="4u">
+													<span class="image fit"><img src="images/shop/jCole.png" alt="" /><b>J Cole</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 57x75cm<br/>CHF 2000.-</span>
+													<form name="mlk" method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/jCole.png"/>
+														<input name="title" type="hidden" value="J Cole"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Acryl auf Leinwand, 57x75cm"/>
+														<input name="negotiationPrice" type="hidden" value="2000"/>
+														<input type="submit" value="Bestellen" />
+			                    </form>
+												</div>
+												<div class="4u">
+													<span class="image fit"><img src="images/shop/laurynHill.png" alt="" /><b>Lauryn Hill</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 57x57cm<br/>CHF 1800.-</span>
+													<form name="mlk" method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/laurynHill.png"/>
+														<input name="title" type="hidden" value="Lauryn Hill"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Acryl auf Leinwand, 57x57cm"/>
+														<input name="negotiationPrice" type="hidden" value="1800"/>
+														<input type="submit" value="Bestellen" />
+			                    </form>
+												</div>
+												<div class="4u">
+													<span class="image fit"><img src="images/shop/kendrickLamar.png" alt="" /><b>Kendrick Lamar</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 40x50cm<br/>CHF 1200.-</span>
+													<form name="mlk" method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/kendrickLamar.png"/>
+														<input name="title" type="hidden" value="Kendrick Lamar"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Acryl auf Leinwand, 40x50cm"/>
+														<input name="negotiationPrice" type="hidden" value="1200"/>
+														<input type="submit" value="Bestellen" />
+			                    </form>
+												</div>
+												<div class="4u">
+													<span class="image fit"><img src="images/shop/ladyInJamaica.png" alt="" /><b>Lady in Jamaica</b><br/>Marvin Kangsen<br/>Acryl auf Leinwand, 140x200cm<br/>CHF 7900.-</span>
+													<form name="mlk" method="post" action="confirmOrder.php">
+														<input name="imagePath" type="hidden" value="images/shop/ladyInJamaica.png"/>
+														<input name="title" type="hidden" value="Lady in Jamaica"/>
+														<input name="artist" type="hidden" value="Marvin Kangsen"/>
+														<input name="description" type="hidden" value="Acryl auf Leinwand, 140x200cm"/>
+														<input name="negotiationPrice" type="hidden" value="7900"/>
+														<input type="submit" value="Bestellen" />
+			                    </form>
+												</div>
 											</div>
 										</div>
 									</section>
