@@ -79,10 +79,10 @@ if(!isset($_POST['imagePath']) or !isset($_POST['title']) or !isset($_POST['arti
                 <div class="box alt">
                   <?php if ($valid) { ?>
                     <div class="row uniform">
-                      <div class="6u">
+                      <div class="6u 12u(small) 12u$(xsmall)">
                         <span class="image fit"><img src="<?php echo "$imagePath"; ?>" alt="" /></span>
                       </div>
-                      <div class="4u">
+                      <div class="4u 12u(small) 12u$(xsmall)">
                         <span><b><?php echo "$title"; ?></b><br/><?php echo "$artist"; ?><br/><?php echo "$description"; ?><br/>CHF <?php echo "$negotiationPrice"; ?>.-</span>
                       </div>
                     </div>
