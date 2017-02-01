@@ -2,29 +2,7 @@ portfolioApp.factory('ArticlesDataService', function() {
 
     var srv = {};
 
-    srv._wipArticles = [
-        {
-            title : 'Bloomyo',
-            year: '2015',
-            description : "This is an IoT-Project I am doing with my brother. The product will help people to take care of their plants. We're using an Arduino-board we're programming with C++. Pumping water through pipes and relays. For the other software we are using Angular, Java and iOS as frontend technologies. The backend works with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
-            tasks : [
-                'Planing | ', 'Java/Java-Script-Development'
-            ],
-            link : '',
-            linkText : '',
-            tags : [
-                {
-                    text : 'private',
-                    class : 'private'
-                },
-                {
-                    text : '@work',
-                    class : 'wip'
-                }
-            ],
-            imagePath : 'images/portfolio/bloomyo/1.png'
-        }
-    ];
+    srv._wipArticles = [];
 
     srv._dadArticles = [
         {
@@ -367,6 +345,27 @@ portfolioApp.factory('ArticlesDataService', function() {
 
     srv._inactiveArticles = [
         {
+          title : 'Bloomyo',
+          year: '2015',
+          description : "This was an IoT-Project I was doing with my brother. The product would help people to take care of their plants. We were programming with C++ on an Arduino-board. Pumping water through pipes and relays. For the other part of the software we were using Angular, Java and iOS as frontend technologies. The backend worked with MQTT, Maven, Spring, Jersey, Hibernate and MySQL.",
+          tasks : [
+              'Planing | ', 'Java/Java-Script-Development'
+          ],
+          link : '',
+          linkText : '',
+          tags : [
+              {
+                  text : 'private',
+                  class : 'private'
+              },
+              {
+                  text : 'done',
+                  class : 'done'
+              }
+          ],
+          imagePath : 'images/portfolio/bloomyo/1.png'
+        },
+        {
             title : 'Verena Moser',
             year: '2010',
             description : 'This project was an election-page for Verena Moser when she ran for the Swiss national council. The page contained a tiny CMS to edit news posts and was written in PHP and Java-Script.',
@@ -428,7 +427,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/voegeli/1.png'
-        },
+        }
     ];
 
     // Service implementation
