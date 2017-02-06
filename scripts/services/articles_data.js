@@ -2,9 +2,52 @@ portfolioApp.factory('ArticlesDataService', function() {
 
     var srv = {};
 
-    srv._wipArticles = [];
+    srv._wipArticles = [
+      {
+          title : 'siClaro',
+          year: '2016-now',
+          description : "This is a webpage which shows a collection of private pictures I took.",
+          tasks : [
+              'Pictures | ', 'Angular'
+          ],
+          link : 'projects/siClaro/index.html',
+          linkText : 'siClaro',
+          tags : [
+              {
+                  text : 'private',
+                  class : 'private'
+              },
+              {
+                  text : '@work',
+                  class : 'wip'
+              }
+          ],
+          imagePath : 'images/portfolio/siClaro/siClaro.png'
+      }
+    ];
 
     srv._dadArticles = [
+        {
+            title : 'Amateurkunst',
+            year: '2016/2017',
+            description : "Amateur is a community organization for amateur artists and young people interested in art, performance and dance. The user is able to get in contact with the organization, order items and subscribe as an artist to upcoming events. This mobile responsive web-project works with PHP, HTML and CSS. It was planed, improved and completed within 27 hours (ca. 3 work days).",
+            tasks : [
+                'Planing | ', 'Development (HTML, CSS, PHP)'
+            ],
+            link : 'http://www.amateurkunst.ch',
+            linkText : 'http://www.amateurkunst.ch',
+            tags : [
+                {
+                    text : 'private',
+                    class : 'private'
+                },
+                {
+                    text : 'done',
+                    class : 'done'
+                }
+            ],
+            imagePath : 'images/portfolio/amateur/'
+        },
         {
             title : 'Jumpin',
             year: '2015',
@@ -20,32 +63,11 @@ portfolioApp.factory('ArticlesDataService', function() {
                     class : 'employee'
                 },
                 {
-                    text : '@work',
-                    class : 'wip'
+                    text : 'done',
+                    class : 'done'
                 }
             ],
             imagePath : 'images/portfolio/jumpin/1.png'
-        },
-        {
-            title : 'siClaro',
-            year: '2016',
-            description : "This is a webpage which shows a collection of private pictures I tock.",
-            tasks : [
-                'Pictures | ', 'Angular'
-            ],
-            link : 'projects/siClaro/index.html',
-            linkText : 'siClaro',
-            tags : [
-                {
-                    text : 'private',
-                    class : 'private'
-                },
-                {
-                    text : '@work',
-                    class : 'wip'
-                }
-            ],
-            imagePath : 'images/portfolio/siClaro/siClaro.png'
         },
         {
             title : 'Ferienfilmfestival',
