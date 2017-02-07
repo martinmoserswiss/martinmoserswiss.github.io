@@ -3,11 +3,10 @@ portfolioApp.factory('ArticlesDataService', function() {
     var srv = {};
 
     srv._wipArticles = [
-      /*
       {
           title : 'Brixel',
           year: '2016/2017',
-          description : "Desc",
+          description : "Brixel is a digital product to sell, buy or invest in Real Estate created by Wide-Ventures. The product offers the users an innovative, fully digital process for it. I work for Brixel as Mobile Application Developer since September 2016 and I am the responsible developer for the iOS and Android mobile app.",
           tasks : [
               'Mobile responsible developer | ', 'Android (Java) and iOS (Swift)'
           ],
@@ -25,7 +24,6 @@ portfolioApp.factory('ArticlesDataService', function() {
           ],
           imagePath : 'images/portfolio/brixel/brixelBanner.png'
       },
-      */
       {
           title : 'siClaro',
           year: '2016-now',
