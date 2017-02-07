@@ -3,6 +3,29 @@ portfolioApp.factory('ArticlesDataService', function() {
     var srv = {};
 
     srv._wipArticles = [
+      /*
+      {
+          title : 'Brixel',
+          year: '2016/2017',
+          description : "Desc",
+          tasks : [
+              'Mobile responsible developer | ', 'Android (Java) and iOS (Swift)'
+          ],
+          link : 'http://brixel.io/',
+          linkText : 'http://brixel.io/',
+          tags : [
+              {
+                  text : 'employee',
+                  class : 'employee'
+              },
+              {
+                  text : '@work',
+                  class : 'wip'
+              }
+          ],
+          imagePath : 'images/portfolio/brixel/brixelBanner.png'
+      },
+      */
       {
           title : 'siClaro',
           year: '2016-now',
@@ -46,7 +69,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                     class : 'done'
                 }
             ],
-            imagePath : 'images/portfolio/amateur/'
+            imagePath : 'images/portfolio/amateur/amateurBanner.png'
         },
         {
             title : 'Jumpin',
