@@ -45,9 +45,76 @@ portfolioApp.factory('ArticlesDataService', function() {
           ],
           imagePath : 'images/portfolio/siClaro/siClaro.png'
       }
+      /*,
+      {
+          title : 'Game of SNOW',
+          year: '2016-now',
+          description : "Desc.",
+          tasks : [
+              'Pictures | ', 'Angular'
+          ],
+          link : 'projects/siClaro/index.html',
+          linkText : 'siClaro',
+          tags : [
+              {
+                  text : 'private',
+                  class : 'private'
+              },
+              {
+                  text : '@work',
+                  class : 'wip'
+              }
+          ],
+          imagePath : 'images/portfolio/siClaro/siClaro.png'
+      }
+      */
     ];
 
     srv._dadArticles = [
+        /*
+        {
+            title : 'Tinder App',
+            year: '2016',
+            description : "desc.",
+            tasks : [
+                'Planing | ', 'Development (HTML, CSS, PHP)'
+            ],
+            link : 'http://www.amateurkunst.ch',
+            linkText : 'http://www.amateurkunst.ch',
+            tags : [
+                {
+                    text : 'private',
+                    class : 'private'
+                },
+                {
+                    text : 'done',
+                    class : 'done'
+                }
+            ],
+            imagePath : 'images/portfolio/amateur/amateurBanner.png'
+        },
+        {
+            title : 'Adventskalender App',
+            year: '2016/2017',
+            description : "Desc.",
+            tasks : [
+                'Planing | ', 'Development (HTML, CSS, PHP)'
+            ],
+            link : 'http://www.amateurkunst.ch',
+            linkText : 'http://www.amateurkunst.ch',
+            tags : [
+                {
+                    text : 'private',
+                    class : 'private'
+                },
+                {
+                    text : 'done',
+                    class : 'done'
+                }
+            ],
+            imagePath : 'images/portfolio/amateur/amateurBanner.png'
+        },
+        */
         {
             title : 'Amateurkunst',
             year: '2016/2017',
