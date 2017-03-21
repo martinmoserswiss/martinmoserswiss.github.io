@@ -86,6 +86,7 @@ if(!isset($_POST['name']) or !isset($_POST['email']) or !isset($_POST['message']
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="vision.html">Vision</a></li>
+                <li><a href="team.html">Team</a></li>
 								<li><a href="gallery.html">Galerie / Shop</a></li>
 								<li><a href="projects.html">Projekte</a></li>
 								<li><a href="contact.html">Kontakt</a></li>

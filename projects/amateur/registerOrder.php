@@ -114,6 +114,7 @@ if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['descrip
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="vision.html">Vision</a></li>
+                <li><a href="team.html">Team</a></li>
 								<li><a href="gallery.html">Galerie / Shop</a></li>
 								<li><a href="projects.html">Projekte</a></li>
 								<li><a href="contact.html">Kontakt</a></li>
