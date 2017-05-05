@@ -94,7 +94,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Adventskalender App',
             year: '2016/2017',
-            description : "It started as a gift for my girlfriend and again when I was in Lisbon. I wanted to give her in december every day a gift. Unfortunately I was not where she was. Sending small gifts in advance was not an option, because I was to lazy to create all 31 gifts before december. So I came up with the idea to create a digital calender where I had the change to create a gift just one day before I had to give it. Finnaly it worked and it is now a template for the comming years.",
+            description : "It started as a gift for my girlfriend and again when I was in Lisbon. I had the idea of giving her a gift every day in december. Unfortunately I was not with her at that time. So sending small gifts in advance was not an option, because I was to lazy to create all 31 gifts before december. Going home everyday was ridiculous and thus not an option too. So I took it as my challenge 🕺 I came up with the idea to create a digital calender where she was able to open every day a new gift. The gifts are comming from a remote server. Like that I had more time to prepare each gift until just before she was able to open it.",
             tasks : [
                 'Game | ', 'Native Android app | ', 'Java'
             ],
