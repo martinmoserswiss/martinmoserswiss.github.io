@@ -44,17 +44,17 @@ portfolioApp.factory('ArticlesDataService', function() {
               }
           ],
           imagePath : 'images/portfolio/siClaro/siClaro.png'
-      }
-      /*,
+      },
+
       {
           title : 'Game of SNOW',
           year: '2016-now',
-          description : "Desc.",
+          description : "A app which helps snowboarder. By proposing tricks to them, they have a tool to extend their tricks repertoire. The tricks are editable through the interface. As soon as the snowbaorder has some saved tricks he is able to play. In manner of the favorite Game of S.N.O.W he is then able to play with a friend.",
           tasks : [
-              'Pictures | ', 'Angular'
+              'Game | ', 'Native iOS app | ', 'Swift'
           ],
-          link : 'projects/siClaro/index.html',
-          linkText : 'siClaro',
+          link : '',
+          linkText : '',
           tags : [
               {
                   text : 'private',
@@ -65,22 +65,20 @@ portfolioApp.factory('ArticlesDataService', function() {
                   class : 'wip'
               }
           ],
-          imagePath : 'images/portfolio/siClaro/siClaro.png'
+          imagePath : 'images/portfolio/gameOfSnow/GameOfSnowBanner.png'
       }
-      */
     ];
 
     srv._dadArticles = [
-        /*
         {
             title : 'Tinder App',
             year: '2016',
-            description : "desc.",
+            description : "When I moved to Lisbon in 2016 I decided to create something nice for my girlfriend 🤗 ! The app works more or less like a incomplete Tinder version. The set of swipeable cards contains portraits of me but also from other random people. Swiping cards left or right is just allowed depending on the underlying image ☺️",
             tasks : [
-                'Planing | ', 'Development (HTML, CSS, PHP)'
+                'Game | ', 'Hybrid mobile app | ', 'Ionic (HTML, CSS, Java-Script) |', 'Target: Android'
             ],
-            link : 'http://www.amateurkunst.ch',
-            linkText : 'http://www.amateurkunst.ch',
+            link : '',
+            linkText : '',
             tags : [
                 {
                     text : 'private',
@@ -91,17 +89,17 @@ portfolioApp.factory('ArticlesDataService', function() {
                     class : 'done'
                 }
             ],
-            imagePath : 'images/portfolio/amateur/amateurBanner.png'
+            imagePath : 'images/portfolio/tinderApp/tinderAppBanner.png'
         },
         {
             title : 'Adventskalender App',
             year: '2016/2017',
-            description : "Desc.",
+            description : "It started as a gift for my girlfriend and again when I was in Lisbon. I wanted to give her in december every day a gift. Unfortunately I was not where she was. Sending small gifts in advance was not an option, because I was to lazy to create all 31 gifts before december. So I came up with the idea to create a digital calender where I had the change to create a gift just one day before I had to give it. Finnaly it worked and it is now a template for the comming years.",
             tasks : [
-                'Planing | ', 'Development (HTML, CSS, PHP)'
+                'Game | ', 'Native Android app | ', 'Java'
             ],
-            link : 'http://www.amateurkunst.ch',
-            linkText : 'http://www.amateurkunst.ch',
+            link : '',
+            linkText : '',
             tags : [
                 {
                     text : 'private',
@@ -112,9 +110,8 @@ portfolioApp.factory('ArticlesDataService', function() {
                     class : 'done'
                 }
             ],
-            imagePath : 'images/portfolio/amateur/amateurBanner.png'
+            imagePath : 'images/portfolio/adventskalender/adventskalenderBanner.png'
         },
-        */
         {
             title : 'Amateurkunst',
             year: '2016/2017',
@@ -198,27 +195,6 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/hinterweissenstein/1.png'
-        },
-        {
-            title : 'DH Blöchlinger',
-            year: '2014',
-            description : "This page is for a dental hygiene office in Bern, Switzerland. The concept of that e-card-page has a high profile in the web.",
-            tasks : [
-                'Planing | ', 'Development (HTML, CSS, Java-Script)'
-            ],
-            link: 'http://dh-bloechlinger.ch/',
-            linkText : 'http://dh-bloechlinger.ch/',
-            tags : [
-                {
-                    text : 'private',
-                    class : 'private'
-                },
-                {
-                    text : 'done',
-                    class : 'done'
-                }
-            ],
-            imagePath : 'images/portfolio/dhbloechlinger/1.png'
         },
         {
             title : 'ImmoMobil',
@@ -537,6 +513,27 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/voegeli/1.png'
+        },
+        {
+            title : 'DH Blöchlinger',
+            year: '2014',
+            description : "This page was for a dental hygiene office in Bern, Switzerland. The concept of that e-card-page had a high profile in the web.",
+            tasks : [
+                'Planing | ', 'Development (HTML, CSS, Java-Script) | ', 'Maintaining'
+            ],
+            link: '',
+            linkText : '',
+            tags : [
+                {
+                    text : 'private',
+                    class : 'private'
+                },
+                {
+                    text : 'done',
+                    class : 'done'
+                }
+            ],
+            imagePath : 'images/portfolio/dhbloechlinger/1.png'
         }
     ];
 
