@@ -17,7 +17,7 @@ $zipCity = "";
 $email = "";
 $human = "";
 
-$email_to = "verein.amateur@gmail.com";
+$email_to = "info@amateurkunst.ch";
 $email_subject = "Bestellungs-Anfrage auf amateurkunst.ch";
 
 $valid = false;

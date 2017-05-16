@@ -5,7 +5,7 @@ $title = "";
 $subTitle = "";
 $message = "";
 
-$email_to = "verein.amateur@gmail.com";
+$email_to = "info@amateurkunst.ch";
 $email_subject = "Kontakt-Anfrage auf amateurkunst.ch";
 
 $valid = false;
