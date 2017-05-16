@@ -140,7 +140,7 @@ if(!isset($_POST['title']) or !isset($_POST['artist']) or !isset($_POST['descrip
 								<li><a href="impressum.html">Impressum</a></li>
 								<li>
 									<a href="https://www.facebook.com/vereinamateur" class="icon fa-facebook" target="_blank"><span class="label">@vereinamateur</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="https://www.instagram.com/verein.amateur_probieren" class="icon fa-instagram" target="_blank"><span class="label">@verein.amateur_probieren</span></a>
+									<a href="https://www.instagram.com/amateur_praesentiert/" class="icon fa-instagram" target="_blank"><span class="label">@verein.amateur_probieren</span></a>
 								</li>
 							</ul>
 						</div>
