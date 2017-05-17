@@ -6,7 +6,7 @@ $subTitle = "";
 $message = "";
 
 $email_to = "info@amateurkunst.ch";
-$email_subject = "Anmeldung für Probieren im Frühsommer 2017";
+$email_subject = "Anmeldung für KUNST IM FREIEN vom 8. Juli 2017";
 
 $valid = false;
 
@@ -22,7 +22,7 @@ if(!isset($_POST['prename']) or !isset($_POST['name']) or !isset($_POST['email']
     $human = $_POST['human']; // required
 
     if(!empty($prename) and !empty($name) and !empty($email) and !empty($art) and !empty($human)) {
-        $email_message = "Neue Anmeldung für Probieren im Frühsommer 2017\n\n";
+        $email_message = "Neue Anmeldung für KUNST IM FREIEN vom 8. Juli 2017\n\n";
 
         function clean_string($string) {
           $bad = array("content-type","bcc:","to:","cc:","href");
