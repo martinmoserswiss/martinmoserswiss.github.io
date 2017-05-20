@@ -2730,7 +2730,7 @@
 		background-color: rgba(53, 56, 73, 0.95);
 		height: 3.5em;
 		left: 0;
-		line-height: 3.5em;
+		line-height: 3.75em;
 		padding: 0 1.25em;
 		position: fixed;
 		top: 0;
@@ -2756,13 +2756,15 @@
 
 			#header h1 a img{
 				margin-top: 10px;
+				margin-left: 10px;
+				visibility: hidden;
 			}
 
 		#header nav {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
-			height: 3em;
+			height: 3.0em;
 			letter-spacing: 0.1em;
 			line-height: 3em;
 			position: absolute;
@@ -2826,9 +2828,13 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.75em;
-				line-height: 2.75em;
+				height: 3.75em;
+				line-height: 3.75em;
 			}
+
+				#header h1 a img{
+					visibility: visible;
+				}
 
 				#header nav {
 					top: 0;
@@ -2855,6 +2861,10 @@
 		}
 
 		@media screen and (max-width: 640px) {
+
+			#header h1 a img{
+				visibility: visible;
+			}
 
 			#header nav a[href="#menu"] {
 				width: 4em;
