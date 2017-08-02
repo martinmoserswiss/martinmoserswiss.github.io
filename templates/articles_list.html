@@ -1,4 +1,30 @@
-<input type="text" placeholder="Filter (ex.: done, private, .NET, Java, 2014, ...)" ng-model="filterString" width="100%"/><br/>
+<!--
+<h2>Summary</h2>
+<span style="font-weight:bold">Work in progress</span>
+<span ng-bind="' ' + filteredWipArticles.length + ' projects I\'m actually working on.'"/><br/>
+<span style="font-weight:bold">Done</span>
+<span ng-bind="' ' + filteredDArticles.length + ' finished and running projects.'"/><br/>
+<span style="font-weight:bold">Archive</span>
+<span ng-bind="' ' + filteredInactiveArticles.length + ' finished but inactive projects.'"/><br/><br/>
+
+<span>Filter after some criterias? </span><a>show filters</a><br/>
+<input type="checkbox" value="value" title="title"/>
+<input type="checkbox" id="java" name="java" unchecked>
+<label for="java">Java</label>
+<input type="checkbox" id="swift" name="swift" unchecked>
+<label for="swift">Swift</label>
+<input type="checkbox" id="android" name="android" unchecked>
+<label for="android">Android</label>
+<input type="checkbox" id="ios" name="ios" unchecked>
+<label for="android">iOS</label>
+<input type="checkbox" id="javascript" name="javascript" unchecked>
+<label for="javascript">Java-Script</label>
+<input type="checkbox" id="web" name="web" unchecked>
+<label for="web">Web</label>
+<input type="text" placeholder="Filter (Done, Private, .NET, Java)" ng-model="filterString" width="100%"/><br/>
+
+-->
+
 <section>
     <h3 ng-bind="'Work in progress (' + filteredWipArticles.length + ')'"/>
     <span ng-show="filteredWipArticles.length == 0">No projects<br/><br/></span>
@@ -28,25 +54,25 @@
 </section>
 
 <section>
-    <h3 ng-bind="'Done and dusted (' + filteredDadArticles.length + ')'"/>
-    <span ng-show="filteredDadArticles.length == 0">No projects<br/><br/></span>
+    <h3 ng-bind="'Done (' + filteredDArticles.length + ')'"/>
+    <span ng-show="filteredDArticles.length == 0">No projects<br/><br/></span>
     <div class="row">
-        <article ng-repeat="dadArticle in filteredDadArticles" class="7u 12u(2) 12u(3) work-item">
-            <a class="image fit"><img ng-src="{{dadArticle.imagePath}}" /></a>
-            <h2 ng-bind="dadArticle.title + ' (' + dadArticle.year + ')'"/>
-            <p ng-bind="dadArticle.description"/><br/>
+        <article ng-repeat="dArticle in filteredDArticles" class="7u 12u(2) 12u(3) work-item">
+            <a class="image fit"><img ng-src="{{dArticle.imagePath}}" /></a>
+            <h2 ng-bind="dArticle.title + ' (' + dArticle.year + ')'"/>
+            <p ng-bind="dArticle.description"/><br/>
 
             <p>
-                <span ng-repeat="task in dadArticle.tasks">
+                <span ng-repeat="task in dArticle.tasks">
                     <span ng-bind="task" />
                 </span>
             </p>
 
             <p>
-               <a ng-bind="dadArticle.linkText" target="_blank" ng-href="{{dadArticle.link}}"></a>
+               <a ng-bind="dArticle.linkText" target="_blank" ng-href="{{dArticle.link}}"></a>
             </p><br/>
 
-            <div ng-repeat="tag in dadArticle.tags">
+            <div ng-repeat="tag in dArticle.tags">
                 <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
             </div><br/>
             <hr>

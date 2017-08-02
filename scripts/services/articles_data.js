@@ -69,7 +69,7 @@ portfolioApp.factory('ArticlesDataService', function() {
       }
     ];
 
-    srv._dadArticles = [
+    srv._dArticles = [
         {
             title : 'Tinder App',
             year: '2016',
@@ -111,6 +111,27 @@ portfolioApp.factory('ArticlesDataService', function() {
                 }
             ],
             imagePath : 'images/portfolio/adventskalender/adventskalenderBanner.png'
+        },
+        {
+            title : 'Prototyping with VR technologies',
+            year: '2016',
+            description : "I created prototypes with Google Tango, Google Cardboard and Unity for a real-estate project. With them I was able to demonstrated the project- advantages and -disadvantages in websites and mobile apps.",
+            tasks : [
+                'Research | ', 'Prototyping | ', 'Google Tango | ', 'Google Cardboard | ', 'Unity | ', 'Web-Applications | ', 'Mobile-Apps'
+            ],
+            link : '',
+            linkText : '',
+            tags : [
+                {
+                    text : 'employee',
+                    class : 'employee'
+                },
+                {
+                    text : 'done',
+                    class : 'done'
+                }
+            ],
+            imagePath : 'images/portfolio/vr/1.png'
         },
         {
             title : 'Amateurkunst',
@@ -542,8 +563,8 @@ portfolioApp.factory('ArticlesDataService', function() {
         return angular.copy(srv._wipArticles);
     };
 
-    srv.getDadArticles = function () {
-        return angular.copy(srv._dadArticles);
+    srv.getDArticles = function () {
+        return angular.copy(srv._dArticles);
     };
 
     srv.getInactiveArticles = function () {
@@ -556,8 +577,8 @@ portfolioApp.factory('ArticlesDataService', function() {
             return srv.getWipArticles();
         },
 
-        getDadArticles: function () {
-            return srv.getDadArticles();
+        getDArticles: function () {
+            return srv.getDArticles();
         },
 
         getInactiveArticles: function () {

@@ -5,9 +5,9 @@ portfolioApp.controller('ArticlesCtrl', function ($scope,ArticlesDataService) {
         $scope.filteredWipArticles = newVal;
     }, true);
 
-    $scope.dadArticles = ArticlesDataService.getDadArticles();
-    $scope.$watch("dadArticles | filter: filterString", function(newVal) {
-        $scope.filteredDadArticles = newVal;
+    $scope.dArticles = ArticlesDataService.getDArticles();
+    $scope.$watch("dArticles | filter: filterString", function(newVal) {
+        $scope.filteredDArticles = newVal;
     }, true);
 
     $scope.inactiveArticles = ArticlesDataService.getInactiveArticles();
