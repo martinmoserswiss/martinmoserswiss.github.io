@@ -41,7 +41,11 @@
             </p>
 
             <p>
-                <a ng-bind="wipArticle.linkText" target="_blank" ng-href="{{wipArticle.link}}"></a>
+              <a ng-bind="wipArticle.linkText" target="_blank" ng-href="{{wipArticle.link}}"></a>
+              <span ng-show="wipArticle.linkText2 != ''" ng-bind="|" />
+              <a ng-show="wipArticle.linkText2 != ''" ng-bind="wipArticle.linkText2" target="_blank" ng-href="{{wipArticle.link2}}"></a>
+              <span ng-show="wipArticle.linkText3 != ''" ng-bind="|" />
+              <a ng-show="wipArticle.linkText3 != ''" ng-bind="wipArticle.linkText3" target="_blank" ng-href="{{wipArticle.link3}}"></a>
             </p>
             <br/>
 
@@ -69,7 +73,11 @@
             </p>
 
             <p>
-               <a ng-bind="dArticle.linkText" target="_blank" ng-href="{{dArticle.link}}"></a>
+              <a ng-bind="dArticle.linkText" target="_blank" ng-href="{{dArticle.link}}"></a>
+              <span ng-show="dArticle.linkText2 != ''" ng-bind="|" />
+              <a ng-show="dArticle.linkText2 != ''" ng-bind="dArticle.linkText2" target="_blank" ng-href="{{dArticle.link2}}"></a>
+              <span ng-show="dArticle.linkText3 != ''" ng-bind="|" />
+              <a ng-show="dArticle.linkText3 != ''" ng-bind="dArticle.linkText3" target="_blank" ng-href="{{dArticle.link3}}"></a>
             </p><br/>
 
             <div ng-repeat="tag in dArticle.tags">
@@ -98,6 +106,10 @@
 
             <p>
                 <a ng-bind="inactiveArticle.linkText" target="_blank" ng-href="{{inactiveArticle.link}}"></a>
+                <span ng-show="inactiveArticle.linkText2 != ''" ng-bind="|" />
+                <a ng-show="inactiveArticle.linkText2 != ''" ng-bind="inactiveArticle.linkText2" target="_blank" ng-href="{{inactiveArticle.link2}}"></a>
+                <span ng-show="inactiveArticle.linkText3 != ''" ng-bind="|" />
+                <a ng-show="inactiveArticle.linkText3 != ''" ng-bind="inactiveArticle.linkText3" target="_blank" ng-href="{{inactiveArticle.link3}}"></a>
             </p><br/>
 
             <div ng-repeat="tag in inactiveArticle.tags">

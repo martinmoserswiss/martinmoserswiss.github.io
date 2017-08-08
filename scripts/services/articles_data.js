@@ -4,14 +4,18 @@ portfolioApp.factory('ArticlesDataService', function() {
 
     srv._wipArticles = [
       {
-          title : 'Brixel',
+          title : 'Brixel iOS and Android App',
           year: '2016/2017',
           description : "Brixel is a digital product to sell, buy or invest in Real Estate created by Wide-Ventures. The product offers the users an innovative, fully digital process for it. I work for Brixel as Mobile Application Developer since September 2016 and I am the responsible developer for the iOS and Android mobile app.",
           tasks : [
               'Mobile responsible developer | ', 'Android (Java) and iOS (Swift)'
           ],
-          link : 'http://brixel.io/',
-          linkText : 'http://brixel.io/',
+          link : 'https://itunes.apple.com/us/app/brixel/id1178568439',
+          linkText : 'Apple App Store',
+          link2: 'https://play.google.com/store/apps/details?id=com.wideventures.brixel',
+          linkText2 : 'Google Play Store',
+          link3: 'https://brixel.io',
+          linkText3 : 'Product page',
           tags : [
               {
                   text : 'employee',
@@ -22,7 +26,7 @@ portfolioApp.factory('ArticlesDataService', function() {
                   class : 'wip'
               }
           ],
-          imagePath : 'images/portfolio/brixel/brixelBanner.png'
+          imagePath : 'images/portfolio/brixel/brixelApp.png'
       },
       {
           title : 'siClaro',
