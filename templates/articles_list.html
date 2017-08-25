@@ -1,122 +1,102 @@
-<!--
-<h2>Summary</h2>
-<span style="font-weight:bold">Work in progress</span>
-<span ng-bind="' ' + filteredWipArticles.length + ' projects I\'m actually working on.'"/><br/>
-<span style="font-weight:bold">Done</span>
-<span ng-bind="' ' + filteredDArticles.length + ' finished and running projects.'"/><br/>
-<span style="font-weight:bold">Archive</span>
-<span ng-bind="' ' + filteredInactiveArticles.length + ' finished but inactive projects.'"/><br/><br/>
 
-<span>Filter after some criterias? </span><a>show filters</a><br/>
-<input type="checkbox" value="value" title="title"/>
-<input type="checkbox" id="java" name="java" unchecked>
-<label for="java">Java</label>
-<input type="checkbox" id="swift" name="swift" unchecked>
-<label for="swift">Swift</label>
-<input type="checkbox" id="android" name="android" unchecked>
-<label for="android">Android</label>
-<input type="checkbox" id="ios" name="ios" unchecked>
-<label for="android">iOS</label>
-<input type="checkbox" id="javascript" name="javascript" unchecked>
-<label for="javascript">Java-Script</label>
-<input type="checkbox" id="web" name="web" unchecked>
-<label for="web">Web</label>
-<input type="text" placeholder="Filter (Done, Private, .NET, Java)" ng-model="filterString" width="100%"/><br/>
+<button class="accordion" ng-bind="'Work in progress - ' + wipArticles.length + ' projects I\'m currently working on'" style="border-bottom: #49bf9d solid 1px;"></button>
+<div class="panel">
+  <section style="margin-top:30px;">
+      <span ng-show="wipArticles.length == 0">No projects<br/><br/></span>
+      <div class="row">
+          <article ng-repeat="wipArticle in wipArticles" class="7u 12u(2) 12u(3) work-item">
+              <a class="image fit"><img ng-src="{{wipArticle.imagePath}}"/></a>
+              <h2 ng-bind="wipArticle.title + ' (' + wipArticle.year + ')'"/>
+              <p ng-bind="wipArticle.description"/><br/>
 
--->
+              <p>
+                  <span ng-repeat="task in wipArticle.tasks">
+                      <span ng-bind="task" />
+                  </span>
+              </p>
 
-<section>
-    <h3 ng-bind="'Work in progress (' + filteredWipArticles.length + ')'"/>
-    <span ng-show="filteredWipArticles.length == 0">No projects<br/><br/></span>
-    <div class="row">
-        <article ng-repeat="wipArticle in filteredWipArticles" class="7u 12u(2) 12u(3) work-item">
-            <a class="image fit"><img ng-src="{{wipArticle.imagePath}}"/></a>
-            <h2 ng-bind="wipArticle.title + ' (' + wipArticle.year + ')'"/>
-            <p ng-bind="wipArticle.description"/><br/>
+              <p>
+                <a ng-bind="wipArticle.linkText" target="_blank" ng-href="{{wipArticle.link}}"></a>
+                <span ng-hide="{{wipArticle.linkText2 === undefined}}">|<span>
+                <a ng-hide="wipArticle.linkText2 == ''" ng-bind="wipArticle.linkText2" target="_blank" ng-href="{{wipArticle.link2}}"></a>
+                <span ng-hide="{{wipArticle.linkText3 === undefined}}">|<span>
+                <a ng-hide="wipArticle.linkText3 == ''" ng-bind="wipArticle.linkText3" target="_blank" ng-href="{{wipArticle.link3}}"></a>
+              </p>
+              <br/>
 
-            <p>
-                <span ng-repeat="task in wipArticle.tasks">
-                    <span ng-bind="task" />
-                </span>
-            </p>
+              <div ng-repeat="tag in wipArticle.tags">
+                  <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
+              </div><br/>
+              <hr>
+          </article>
+      </div>
+  </section>
+</div>
 
-            <p>
-              <a ng-bind="wipArticle.linkText" target="_blank" ng-href="{{wipArticle.link}}"></a>
-              <span ng-show="wipArticle.linkText2 != ''" ng-bind="|" />
-              <a ng-show="wipArticle.linkText2 != ''" ng-bind="wipArticle.linkText2" target="_blank" ng-href="{{wipArticle.link2}}"></a>
-              <span ng-show="wipArticle.linkText3 != ''" ng-bind="|" />
-              <a ng-show="wipArticle.linkText3 != ''" ng-bind="wipArticle.linkText3" target="_blank" ng-href="{{wipArticle.link3}}"></a>
-            </p>
-            <br/>
+<button class="accordion" ng-bind="'Done - ' + dArticles.length + ' finished and running projects'" style="border-bottom: #49bf9d solid 1px;"></button>
+<div class="panel">
+  <section style="margin-top:30px;">
+      <span ng-show="dArticles.length == 0">No projects<br/><br/></span>
+      <div class="row">
+          <article ng-repeat="dArticle in dArticles" class="7u 12u(2) 12u(3) work-item">
+              <a class="image fit"><img ng-src="{{dArticle.imagePath}}" /></a>
+              <h2 ng-bind="dArticle.title + ' (' + dArticle.year + ')'"/>
+              <p ng-bind="dArticle.description"/><br/>
 
-            <div ng-repeat="tag in wipArticle.tags">
-                <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-            </div><br/>
-            <hr>
-        </article>
-    </div>
-</section>
+              <p>
+                  <span ng-repeat="task in dArticle.tasks">
+                      <span ng-bind="task" />
+                  </span>
+              </p>
 
-<section>
-    <h3 ng-bind="'Done (' + filteredDArticles.length + ')'"/>
-    <span ng-show="filteredDArticles.length == 0">No projects<br/><br/></span>
-    <div class="row">
-        <article ng-repeat="dArticle in filteredDArticles" class="7u 12u(2) 12u(3) work-item">
-            <a class="image fit"><img ng-src="{{dArticle.imagePath}}" /></a>
-            <h2 ng-bind="dArticle.title + ' (' + dArticle.year + ')'"/>
-            <p ng-bind="dArticle.description"/><br/>
+              <p>
+                <a ng-bind="dArticle.linkText" target="_blank" ng-href="{{dArticle.link}}"></a>
+                <span ng-hide="{{dArticle.linkText2 === undefined}}">|<span>
+                <a ng-show="dArticle.linkText2 != ''" ng-bind="dArticle.linkText2" target="_blank" ng-href="{{dArticle.link2}}"></a>
+                <span ng-hide="{{dArticle.linkText3 === undefined}}">|<span>
+                <a ng-show="dArticle.linkText3 != ''" ng-bind="dArticle.linkText3" target="_blank" ng-href="{{dArticle.link3}}"></a>
+              </p><br/>
 
-            <p>
-                <span ng-repeat="task in dArticle.tasks">
-                    <span ng-bind="task" />
-                </span>
-            </p>
+              <div ng-repeat="tag in dArticle.tags">
+                  <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
+              </div><br/>
+              <hr>
+          </article>
+      </div>
+  </section>
+</div>
 
-            <p>
-              <a ng-bind="dArticle.linkText" target="_blank" ng-href="{{dArticle.link}}"></a>
-              <span ng-show="dArticle.linkText2 != ''" ng-bind="|" />
-              <a ng-show="dArticle.linkText2 != ''" ng-bind="dArticle.linkText2" target="_blank" ng-href="{{dArticle.link2}}"></a>
-              <span ng-show="dArticle.linkText3 != ''" ng-bind="|" />
-              <a ng-show="dArticle.linkText3 != ''" ng-bind="dArticle.linkText3" target="_blank" ng-href="{{dArticle.link3}}"></a>
-            </p><br/>
+<button class="accordion" ng-bind="'Archive - ' + inactiveArticles.length + ' finished but inactive projects'"></button>
+<div class="panel">
+  <section style="margin-top:30px;">
+      <span ng-show="inactiveArticles.length == 0">No projects<br/><br/></span>
+      <div class="row">
+          <article ng-repeat="inactiveArticle in inactiveArticles" class="7u 12u(2) 12u(3) work-item">
+            <div class="12u(3)">
+              <a class="image fit"><img ng-src="{{inactiveArticle.imagePath}}" /></a>
+              <h2 ng-bind="inactiveArticle.title + ' (' + inactiveArticle.year + ')'"/>
+              <p ng-bind="inactiveArticle.description"/><br/>
 
-            <div ng-repeat="tag in dArticle.tags">
-                <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-            </div><br/>
-            <hr>
-        </article>
-    </div>
-</section>
+              <p>
+                  <span ng-repeat="task in inactiveArticle.tasks">
+                      <span ng-bind="task" />
+                  </span>
+              </p>
 
-<section>
-    <h3 ng-bind="'Archive (' + filteredInactiveArticles.length + ')'"/>
-    <span ng-show="filteredInactiveArticles.length == 0">No projects<br/><br/></span>
-    <div class="row">
-        <article ng-repeat="inactiveArticle in filteredInactiveArticles" class="7u 12u(2) 12u(3) work-item">
-          <div class="12u(3)">
-            <a class="image fit"><img ng-src="{{inactiveArticle.imagePath}}" /></a>
-            <h2 ng-bind="inactiveArticle.title + ' (' + inactiveArticle.year + ')'"/>
-            <p ng-bind="inactiveArticle.description"/><br/>
+              <p>
+                  <a ng-bind="inactiveArticle.linkText" target="_blank" ng-href="{{inactiveArticle.link}}"></a>
+                  <span ng-hide="{{inactiveArticle.linkText2 === undefined}}">|<span>
+                  <a ng-show="inactiveArticle.linkText2 != ''" ng-bind="inactiveArticle.linkText2" target="_blank" ng-href="{{inactiveArticle.link2}}"></a>
+                  <span ng-hide="{{inactiveArticle.linkText3 === undefined}}">|<span>
+                  <a ng-show="inactiveArticle.linkText3 != ''" ng-bind="inactiveArticle.linkText3" target="_blank" ng-href="{{inactiveArticle.link3}}"></a>
+              </p><br/>
 
-            <p>
-                <span ng-repeat="task in inactiveArticle.tasks">
-                    <span ng-bind="task" />
-                </span>
-            </p>
-
-            <p>
-                <a ng-bind="inactiveArticle.linkText" target="_blank" ng-href="{{inactiveArticle.link}}"></a>
-                <span ng-show="inactiveArticle.linkText2 != ''" ng-bind="|" />
-                <a ng-show="inactiveArticle.linkText2 != ''" ng-bind="inactiveArticle.linkText2" target="_blank" ng-href="{{inactiveArticle.link2}}"></a>
-                <span ng-show="inactiveArticle.linkText3 != ''" ng-bind="|" />
-                <a ng-show="inactiveArticle.linkText3 != ''" ng-bind="inactiveArticle.linkText3" target="_blank" ng-href="{{inactiveArticle.link3}}"></a>
-            </p><br/>
-
-            <div ng-repeat="tag in inactiveArticle.tags">
-                <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-            </div><br/>
-            <hr>
-          </div>
-        </article>
-    </div>
-</section>
+              <div ng-repeat="tag in inactiveArticle.tags">
+                  <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
+              </div><br/>
+              <hr>
+            </div>
+          </article>
+      </div>
+  </section>
+</div>
