@@ -31,7 +31,7 @@ portfolioApp.factory('ArticlesDataService', function() {
       {
           title : 'siClaro',
           year: '2016-now',
-          description : "This is a webpage which shows a collection of private pictures I took.",
+          description : "This is a web page which shows a collection of private pictures I took.",
           tasks : [
               'Pictures | ', 'Angular'
           ],
@@ -53,7 +53,7 @@ portfolioApp.factory('ArticlesDataService', function() {
       {
           title : 'Game of SNOW',
           year: '2016-now',
-          description : "A app which helps snowboarder. By proposing tricks to them, they have a tool to extend their tricks repertoire. The tricks are editable through the interface. As soon as the snowbaorder has some saved tricks he is able to play. In manner of the favorite Game of S.N.O.W he is then able to play with a friend.",
+          description : "A app which helps snowboarder. By proposing tricks to them, they have a tool to extend their tricks repertoire. The tricks are editable through the interface. As soon as the snowborder has some saved tricks he is able to play. In manner of the favorite Game of S.N.O.W he is then able to play with a friend.",
           tasks : [
               'Game | ', 'Native iOS app | ', 'Swift'
           ],
@@ -77,7 +77,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Tinder App',
             year: '2016',
-            description : "When I moved to Lisbon in 2016 I decided to create something nice for my girlfriend 🤗 ! The app works more or less like a incomplete Tinder version. The set of swipeable cards contains portraits of me but also from other random people. Swiping cards left or right is just allowed depending on the underlying image ☺️",
+            description : "When I moved to Lisbon in 2016 I decided to create a own version of a tinder app for my girlfriend 🤗 The app works more or less like a incomplete Tinder version. The set of swipeable cards contains portraits of me but also from other random guys. Swiping cards left or right is just allowed depending on the underlying image 😀",
             tasks : [
                 'Game | ', 'Hybrid mobile app | ', 'Ionic (HTML, CSS, Java-Script) |', 'Target: Android'
             ],
@@ -98,7 +98,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Adventskalender App',
             year: '2016/2017',
-            description : "It started as a gift for my girlfriend and again when I was in Lisbon. I had the idea of giving her a gift every day in december. Unfortunately I was not with her at that time. So sending small gifts in advance was not an option, because I was to lazy to create all 31 gifts before december. Going home everyday was ridiculous and thus not an option too. So I took it as my challenge 🕺 I came up with the idea to create a digital calender where she was able to open every day a new gift. The gifts are comming from a remote server. Like that I had more time to prepare each gift until just before she was able to open it.",
+            description : "It started as a gift for my girlfriend and again when I was in Lisbon. I had the idea of giving her a gift every day in december. Unfortunately I was not with her at that time. So sending small gifts in advance was not an option, because I was to lazy to create all 31 gifts before december. Going home everyday was ridiculous and thus not an option too. So I took it as my challenge 🕺 I came up with the idea to create a digital calendar where she was able to open every day a new gift. The gifts are coming from a remote server. Like that I had more time to prepare each gift until just before she was able to open it.",
             tasks : [
                 'Game | ', 'Native Android app | ', 'Java'
             ],
@@ -119,7 +119,7 @@ portfolioApp.factory('ArticlesDataService', function() {
         {
             title : 'Prototyping with VR technologies',
             year: '2016',
-            description : "I created prototypes with Google Tango, Google Cardboard and Unity for a real-estate project. With them I was able to demonstrated the project- advantages and -disadvantages in websites and mobile apps.",
+            description : "I created 7 prototypes for a real-estate project with Google Tango, Google Cardboard and Unity. On the basis of these prototypes I was able to show the possibilities of the technologies and a rough time estimation for some requested use cases in websites and mobile apps.",
             tasks : [
                 'Research | ', 'Prototyping | ', 'Google Tango | ', 'Google Cardboard | ', 'Unity | ', 'Web-Applications | ', 'Mobile-Apps'
             ],
