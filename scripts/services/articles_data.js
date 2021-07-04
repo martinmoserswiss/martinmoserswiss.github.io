@@ -8,7 +8,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2021',
             description: "With the Startfeld Wallet, startups can redeem services received from partner companies with digital vouchers in the form of Startfeld Coins (SFC). Concept, design and creation of the iOS and Android app Provision of the blockchain RPC. Creation of SmartContract",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://appswithlove.com/referenzen/startfeld',
             linkText: 'https://appswithlove.com/referenzen/startfeld',
@@ -28,7 +28,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2017-2021',
             description: "In the Migros Play app, entertaining topics from the well-known Migros Mania promotions or the seasonal campaigns for Easter, summer or Christmas are played.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://appswithlove.com/referenzen/migros-play',
             linkText: 'https://appswithlove.com/referenzen/migros-play',
@@ -48,7 +48,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2019-2021',
             description: "konzept, iOS & mobile",
             tasks: [
-                'tbd'
+                ''
             ],
             link: '',
             linkText: '',
@@ -68,7 +68,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2020-2021',
             description: "Users can use the app to control one or more Smart Connectors. If the user has been successfully authenticated, the following functions can be carried out",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://apps.apple.com/de/app/smart-connector/id1545326243',
             linkText: 'iOS App',
@@ -88,7 +88,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2020-2021',
             description: "Rundum mobil GmbH is a private mobility office based in Thun, Switzerland. The customer develops a range of courses based on the latest knowledge and combines two megatrends: digital and demographic change. Courses are intended to reduce inhibitions and facilitate access to public transport.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://mobilsein-mobilbleiben.ch/',
             linkText: 'https://mobilsein-mobilbleiben.ch/',
@@ -108,7 +108,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2020-2021',
             description: "Apps with love was allowed to create a concept for a digital school culture cube between October 2020 and January 2021 and present it at a final presentation event. In order to be able to make a more informed decision on a specific technical implementation, a possible business model for a digital product was desired. In a workshop, Apps with love was allowed to help develop the business model basics.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: '',
             linkText: '',
@@ -128,7 +128,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2020',
             description: "The app simplifies the search for and use of volunteer helpers. Volunteers can discover missions more easily. And assignments can simply be advertised.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://appswithlove.com/produkte/five-up-connect-your-help',
             linkText: 'https://appswithlove.com/produkte/five-up-connect-your-help',
@@ -148,7 +148,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2017-2021',
             description: "This app manages to bring a mountain race that is difficult to access onto the sofa at home and makes it possible to cheer for the teams and actively motivate them.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://appswithlove.com/referenzen/pdg',
             linkText: 'https://appswithlove.com/referenzen/pdg',
@@ -168,12 +168,12 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2017-2021',
             description: "The flex-e-book system provides the learner with the freedom to carry around his heavy books and the language centers to distribute standard and customized e-books to their students. Students have access to the system with a mobile tablet app (Android and iOS). Administrators and language centers can moderate content through a web CMS.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://itunes.apple.com/ch/app/inlingua-flex-e-book/id1106901698',
             linkText: 'iOS',
-            link: 'https://play.google.com/store/apps/details?id=com.appswithlove.apps.inlinguaapp',
-            linkText: 'Android',
+            link2: 'https://play.google.com/store/apps/details?id=com.appswithlove.apps.inlinguaapp',
+            linkText2: 'Android',
             tags: [
                 {
                     text: 'employee @ apps with love',
@@ -190,12 +190,12 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2017-2021',
             description: "Flight Safety is a mobile app of the swiss air force which shares flight know-how.The mobile app offers the following contents and functions to the mobile users: Safety Publications - Public information about flight safety, Shared Experience - Internal experiences about flight safety, News, Emergency function, Download center. The administrator is able to manage contents, functions and users in a CMS.",
             tasks: [
-                'tbd'
+                ''
             ],
             link: 'https://apps.apple.com/ch/app/flight-safety-swiss-air-force/id1117417532',
             linkText: 'iOS',
-            link: 'https://play.google.com/store/apps/details?id=ch.zem.flightsafety',
-            linkText: 'Android',
+            link2: 'https://play.google.com/store/apps/details?id=ch.zem.flightsafety',
+            linkText2: 'Android',
             tags: [
                 {
                     text: 'employee @ apps with love',
@@ -212,7 +212,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2017-2019',
             description: "The mobile applications Swissinfo.ch and TV-Svizzera are products from SRG. SRG it self is the biggest company for electronic media in Switzerland and has the task to serve information to swiss citizens in and out of the country. The client continuously wanted to release new features and adjustments so that the app stays attractive for the users. The Android- and iOS-Apps was able to download from Apple, Google and Tencent-Store (China) The user is able to download the app to his smartphone and to his tablet. Both the store presence and the app content is available in 10 languages (German, French, Italian, English, Spanish, Portuguese, Russian, Japanese, Chinese and Arabian).",
             tasks: [
-                'tbd'
+                ''
             ],
             link: '',
             linkText: '',
