@@ -17,12 +17,13 @@
 
 /* Tags */
     div.tags{
-        border-radius: 10px;
+        border-radius: 5px;
         margin-left: 2px;
-        padding: 5px;
-        height: 40px;
+        padding: 0px 10px 0px 10px;
+        height: 25px;
         color: white;
         float: left;
+        font-size:x-small;
     }
 
     div.employee {
@@ -37,11 +38,11 @@
         background: #CC004C;
     }
 
-    div.done {
+    div.developer {
         background: #FCB711;
     }
 
-    div.wip {
+    div.projectmanager {
         background: #6460AA;
     }
 
@@ -492,7 +493,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-        height: 200px;
+        width: 100%;
 	}
 
 		.image:before {
@@ -950,7 +951,8 @@
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
+        width: 100%;
 	}
 
 		.work-item .image {

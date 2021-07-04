@@ -1,23 +1,10 @@
 portfolioApp.controller('ArticlesCtrl', function ($scope,ArticlesDataService) {
+    $scope.employeeProjects = ArticlesDataService.getEmployeeProjects();
+    $scope.privateProjects = ArticlesDataService.getPrivateProjects();
 
-    var acc = document.getElementsByClassName("accordion");
-    for (var i = 0; i < acc.length; i++) {
-        acc[i].onclick = function(){
-            this.classList.toggle("active");
-
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-            } else {
-                panel.style.display = "block";
-            }
-        }
+    $scope.isLastItem = function (item) {
+        let pos = $scope.employeeProjects.map(function(e) {return e.title;}).indexOf(item.title);
+        console.log($scope.employeeProjects.length-1 == pos);
+        return $scope.employeeProjects.length-1 == pos;
     }
-
-    acc[0].click(); //open first panel
-
-    $scope.wipArticles = ArticlesDataService.getWipArticles();
-    $scope.dArticles = ArticlesDataService.getDArticles();
-    $scope.inactiveArticles = ArticlesDataService.getInactiveArticles();
-
 });
