@@ -8,7 +8,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             year: '2020 - 2021',
             description: "Together with customers, designers, blockchain experts, developers and testers, I develop mobile wallets with which users can redeem digital vouchers. The solution is based on a SmartContract and stores transactions via a specially created RPC on a custom Ethereum blockchain.",
             tasks: [
-                'Project management | ', 'Requirements engineering | ', 'Smart contract development | ', 'Solution design'
+                'Project management | ', 'Requirements engineering | ', 'Smart contract development | ', 'Technical solution design'
             ],
             link: 'https://appswithlove.com/referenzen/startfeld',
             linkText: 'Reference of the Startfeld wallet',
@@ -50,9 +50,9 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'WESCO - Digital services',
             year: '2019-2021',
-            description: "konzept, iOS & mobile",
+            description: "For WESCO I develop together with the client and the project team a mobile IoT app that should easily play together with the physical steam drain hoods. A careful clarification of the requirements and technical advices in the initial phase is crucial for the success of the product. I have been accompanying the project since the beginning as a project manager and technical consultant.",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering | ', 'Technical solution design'
             ],
             link: '',
             linkText: '',
@@ -70,9 +70,9 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'Schurter Smart Connector - Mobile app',
             year: '2020-2021',
-            description: "Users can use the app to control one or more Smart Connectors. If the user has been successfully authenticated, the following functions can be carried out",
+            description: "With the app, users can configure and control Smart Connectors (IoT devices). In close cooperation with good people from the disciplines of consulting, user researcher, design, QA and development, I was allowed to manage the technical implementation of the project. I'm curious about how the project develops further.",
             tasks: [
-                ''
+                'Project management'
             ],
             link: 'https://apps.apple.com/de/app/smart-connector/id1545326243',
             linkText: 'iOS App',
@@ -88,31 +88,11 @@ portfolioApp.factory('ArticlesDataService', function () {
             ],
         },
         {
-            title: 'Mobil sein, mobil bleiben - Website',
-            year: '2020-2021',
-            description: "Rundum mobil GmbH is a private mobility office based in Thun, Switzerland. The customer develops a range of courses based on the latest knowledge and combines two megatrends: digital and demographic change. Courses are intended to reduce inhibitions and facilitate access to public transport.",
-            tasks: [
-                ''
-            ],
-            link: 'https://mobilsein-mobilbleiben.ch/',
-            linkText: 'https://mobilsein-mobilbleiben.ch/',
-            tags: [
-                {
-                    text: 'employee @ apps with love',
-                    class: 'employee'
-                },
-                {
-                    text: 'project manager',
-                    class: 'projectmanager'
-                }
-            ],
-        },
-        {
             title: 'PHBern - Concept & Design',
             year: '2020-2021',
-            description: "Apps with love was allowed to create a concept for a digital school culture cube between October 2020 and January 2021 and present it at a final presentation event. In order to be able to make a more informed decision on a specific technical implementation, a possible business model for a digital product was desired. In a workshop, Apps with love was allowed to help develop the business model basics.",
+            description: "Together with consultants, marketeers, designer and developers, I created a concept for a digital school culture development concept and present it at a final presentation event. In order to be able to make a more informed decision on a specific technical implementation, we developed also the basics of a business model for a digital product.",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering | ', 'Consulting'
             ],
             link: '',
             linkText: '',
@@ -128,31 +108,11 @@ portfolioApp.factory('ArticlesDataService', function () {
             ],
         },
         {
-            title: 'FiveUp - Mobile app',
-            year: '2020',
-            description: "The app simplifies the search for and use of volunteer helpers. Volunteers can discover missions more easily. And assignments can simply be advertised.",
-            tasks: [
-                ''
-            ],
-            link: 'https://appswithlove.com/produkte/five-up-connect-your-help',
-            linkText: 'https://appswithlove.com/produkte/five-up-connect-your-help',
-            tags: [
-                {
-                    text: 'employee @ apps with love',
-                    class: 'employee'
-                },
-                {
-                    text: 'project manager',
-                    class: 'projectmanager'
-                }
-            ],
-        },
-        {
             title: 'Platform Open - Web application',
             year: '2019',
-            description: "Die erste One-Key-Solution für das Zugangsmanagement der Zukunft. OPEN ermöglicht es unabhängig vom Hersteller alle elektronischen sowie digitalen Schlösser über eine Plattform zu verwalten und Zugriffe einfach, sicher und kostengünstig zu managen. Alle Zugriffe sicher über eine Plattform managen und monitoren. Auf einen Blick und mit wenigen Klicks. Überall und jederzeit. Via Desktop und Mobile einfach und sicher die Zugriffe managen. Sehen Sie im Video wie Sie intuitiv ihre Zugriffe verwalten, Zugriffe anfordern und Zugriffe freigeben. Logistik und Transportunternehmen Accessmanagement ist für Logistik und Transport zentral. OPEN vereinfacht nicht nur die Zustellung oder das Fuhrparkmanagement, sondern die Branche insgesamt. Immobilienverwaltung und -Vermittlung. Der einfache und sichere Zugang zu Geschäftsräumen, Lagerhallen oder Wohnungen schafft neben Mehrwert auch Wettbewerbsvorteile. Lokale Geschäfte erhalten so auch die Möglichkeit eines neuen Absatzkanales. Sharing Economy und Nachhaltigkeit. Die Sharing Economy wächst rasant. So wird sich die Zahl der Car Sharing Benutzer innerhalb von fünf Jahren versechsfachen. Eine einfache Form für den Zugang wird ein Schlüsselfaktor für den Durchbruch sein.Versicherungen und New Businesses. OPEN ermöglicht es an den Kern des radikal vereinfachten Zugangsmanagements neuartige Geschäftsmodelle anzuknüpfen. So können beispieslweise neue Formen von Versicherungsprodukten angeboten werden.",
+            description: "Platform Open was a project for a startup from the sharing economy. The first one-key solution for the access management of the future. The goal of OPEN was to make it possible to manage all electronic and digital locks via one platform and to manage accesses easily, safe and inexpensive independently of the manufacturer. In close cooperation with customers and front-end developer, I was allowed to accompany this project as a technical project manager and backend developer.",
             tasks: [
-                ''
+                'Node backend development | ', 'Technical project mangagement'
             ],
             link: 'https://platformopen.com/',
             linkText: 'https://platformopen.com/',
@@ -160,6 +120,10 @@ portfolioApp.factory('ArticlesDataService', function () {
                 {
                     text: 'freelancer',
                     class: 'private'
+                },
+                {
+                    text: 'technical project manager',
+                    class: 'projectmanager'
                 },
                 {
                     text: 'backend developer',
@@ -170,9 +134,9 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'Patrouille des Glaciers (PdG) - Mobile app',
             year: '2017-2021',
-            description: "This app manages to bring a mountain race that is difficult to access onto the sofa at home and makes it possible to cheer for the teams and actively motivate them.",
+            description: "This mobile app manages to bring a mountain race that is difficult to access at home and makes it possible to cheer for the teams and actively motivate them. I'm allowed to accompany this project as a project manager and requirements engineer.",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering'
             ],
             link: 'https://appswithlove.com/referenzen/pdg',
             linkText: 'https://appswithlove.com/referenzen/pdg',
@@ -190,9 +154,9 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'Inlingua - Mobile app',
             year: '2017-2021',
-            description: "The flex-e-book system provides the learner with the freedom to carry around his heavy books and the language centers to distribute standard and customized e-books to their students. Students have access to the system with a mobile tablet app (Android and iOS). Administrators and language centers can moderate content through a web CMS.",
+            description: "Flex-e-book is a learning platform from the international language school Inlingua. It provides the students the freedom to let the heavy books at home and learn instead with a mobile app (Android and iOS). The teachers in the language centers are on the other handside able to distribute standard and customized e-books to their students through a web CMS. I am allowed to lead the further development of the system together with the client and the project team as a project manager and requirements engineer.",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering | ', 'Incident management'
             ],
             link: 'https://itunes.apple.com/ch/app/inlingua-flex-e-book/id1106901698',
             linkText: 'iOS',
@@ -212,9 +176,9 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'FlightSafety - Mobile app',
             year: '2017-2021',
-            description: "Flight Safety is a mobile app of the swiss air force which shares flight know-how.The mobile app offers the following contents and functions to the mobile users: Safety Publications - Public information about flight safety, Shared Experience - Internal experiences about flight safety, News, Emergency function, Download center. The administrator is able to manage contents, functions and users in a CMS.",
+            description: "Flight Safety is a mobile app of the swiss air force which shares flight know-how. The administrator is able to manage contents, functions and users in a CMS. I'm allowed in the role of the project manager and requirements engineer to improve and develop the system further with customers and the project team.",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering | ', 'Incident management'
             ],
             link: 'https://apps.apple.com/ch/app/flight-safety-swiss-air-force/id1117417532',
             linkText: 'iOS',
@@ -234,9 +198,9 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'Swissinfo - Mobile app',
             year: '2017-2019',
-            description: "The mobile applications Swissinfo.ch and TV-Svizzera are products from SRG. SRG it self is the biggest company for electronic media in Switzerland and has the task to serve information to swiss citizens in and out of the country. The client continuously wanted to release new features and adjustments so that the app stays attractive for the users. The Android- and iOS-Apps was able to download from Apple, Google and Tencent-Store (China) The user is able to download the app to his smartphone and to his tablet. Both the store presence and the app content is available in 10 languages (German, French, Italian, English, Spanish, Portuguese, Russian, Japanese, Chinese and Arabian).",
+            description: "The mobile applications Swissinfo.ch and TV-Svizzera are products from SRG. SRG it self is the biggest company for electronic media in Switzerland and has the task to serve information to swiss citizens in and out of the country. The client continuously wanted to release new features and adjustments so that the app stays attractive for the users. The Android- and iOS-Apps were available from the Apple, Google and Tencent-Store (China). The user was able to download the app to smartphones and tablets. Both the store presence and the app content was available in 10 languages (German, French, Italian, English, Spanish, Portuguese, Russian, Japanese, Chinese and Arabian).",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering'
             ],
             link: '',
             linkText: '',
@@ -253,10 +217,10 @@ portfolioApp.factory('ArticlesDataService', function () {
         },
         {
             title : 'Surprise Vertrieb',
-            year: '2017/2018',
-            description : "Surprise is a street magazine published by the association Surprise, with headquarters in Basel and two regional offices in Bern and Zurich. The reach of the magazine is 142,000 people. Surprise (client) sells street magazines to the street vendors via various outlets. Outlets can be small stationary grocery stores but also mobile points of contact. When magazines are sold from the outlets to the sellers, their transaction number (quantity and price) is manually recorded on a list. The collection of the numbers of the sellers is error-prone, since the persons who capture the numbers party can not read and write well. With an error-free and easier capture of each transaction, the settlement should be more pleasant and efficient. The interfaces between regional offices, outlets and sellers are crucial. I am creating a solution that fixes the problem and satisfies the affected areas. With a QR code scanner in a mobile app, the numbers of the seller are recorded completely and without errors. With a web application, regional offices can manage the transactions. For example, with various list views by period, quantity, outlets, ect. be filtered.",
+            year: '2017/2019',
+            description : "Surprise is a street magazine published by the association Surprise, with headquarters in Basel and two regional offices in Bern and Zurich. The reach of the magazine is 142,000 people. Surprise (client) sells street magazines to the street vendors via various outlets. Outlets can be small stationary grocery stores but also mobile points of contact. When magazines are sold from the outlets to the sellers, their transaction number (quantity and price) is manually recorded on a list. The collection of the numbers of the sellers is error-prone, since the persons who capture the numbers party can not read and write well. With an error-free and easier capture of each transaction, the settlement should be more pleasant and efficient. The interfaces between regional offices, outlets and sellers are crucial. I was creating a solution that fixes the problem and satisfies the affected areas. With a QR code scanner in a mobile Android app, the numbers of the seller are recorded completely and without errors. With a web application, regional offices can manage the transactions. Unfortunately, I did not succeed in introducing the project successfully.",
             tasks : [
-                'Project management | ', 'Development'
+                'Node-Backend development and operation | ', 'Angular web development | ', 'Android development with Java | ', 'Product management'
             ],
             link: 'https://surprise.ngo',
             linkText : 'surprise.ngo',
@@ -275,7 +239,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'Brixel - Mobile app',
             year: '2016 - 2017',
-            description: "Brixel is a digital product to sell, buy or invest in Real Estate created by Wide-Ventures. The product offers the users an innovative, fully digital process for it. I work for Brixel as Mobile Application Developer since September 2016 and I am the responsible developer for the iOS and Android mobile app.",
+            description: "Brixel is a digital product to sell, buy or invest in Real Estate created by Wide-Ventures. The product offers the users an innovative, fully digital process. I worked for Brixel as mobile application developer and I was responsible for the iOS and Android app.",
             tasks: [
                 'Android (Java) | ','iOS (Swift)'
             ],
@@ -315,7 +279,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         {
             title: 'Jumpin - Mobile app',
             year: '2015',
-            description: "That SAPUI5 hybrid mobile app helps hospitals to find human resources easily and quickly.",
+            description: "That SAPUI5 hybrid mobile app helps hospitals to find human resources easily and quick.",
             tasks: [
                 'SAPUI5 Java-Script- & .NET-Development'
             ],
@@ -794,24 +758,39 @@ portfolioApp.factory('ArticlesDataService', function () {
         },
     ];
 
+    srv._archiv = [
+        {
+            title: 'Mobil sein, mobil bleiben - Website',
+            year: '2020-2021',
+            description: "Rundum mobil GmbH is a private mobility office based in Thun, Switzerland. The customer develops a range of courses based on the latest knowledge and combines two megatrends: digital and demographic change. Courses are intended to reduce inhibitions and facilitate access to public transport.",
+            tasks: [
+                ''
+            ],
+            link: 'https://mobilsein-mobilbleiben.ch/',
+            linkText: 'https://mobilsein-mobilbleiben.ch/',
+            tags: [
+                {
+                    text: 'employee @ apps with love',
+                    class: 'employee'
+                },
+                {
+                    text: 'project manager',
+                    class: 'projectmanager'
+                }
+            ],
+        },
+    ];
+
     // Service implementation
     srv.getEmployeeProjects = function () {
         return angular.copy(srv._employeeProjects);
-    };
-
-    srv.getPrivateProjects = function () {
-        return angular.copy(srv._privateProjects);
     };
 
     // Public API
     return {
         getEmployeeProjects: function () {
             return srv.getEmployeeProjects();
-        },
-
-        getPrivateProjects: function () {
-            return srv.getPrivateProjects();
-        },
+        }
     };
 
 });
