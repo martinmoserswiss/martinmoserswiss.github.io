@@ -18,7 +18,7 @@
 /* Tags */
     div.tags{
         border-radius: 5px;
-        margin-left: 5px;
+        margin: 0px 5px 5px 0px;
         padding: 0px 10px 0px 10px;
         color: white;
         float: left;
