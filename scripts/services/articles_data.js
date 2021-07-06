@@ -144,6 +144,26 @@ portfolioApp.factory('ArticlesDataService', function () {
             ],
         },
         {
+            title: 'Platform Open - Web application',
+            year: '2019',
+            description: "Die erste One-Key-Solution für das Zugangsmanagement der Zukunft. OPEN ermöglicht es unabhängig vom Hersteller alle elektronischen sowie digitalen Schlösser über eine Plattform zu verwalten und Zugriffe einfach, sicher und kostengünstig zu managen. Alle Zugriffe sicher über eine Plattform managen und monitoren. Auf einen Blick und mit wenigen Klicks. Überall und jederzeit. Via Desktop und Mobile einfach und sicher die Zugriffe managen. Sehen Sie im Video wie Sie intuitiv ihre Zugriffe verwalten, Zugriffe anfordern und Zugriffe freigeben. Logistik und Transportunternehmen Accessmanagement ist für Logistik und Transport zentral. OPEN vereinfacht nicht nur die Zustellung oder das Fuhrparkmanagement, sondern die Branche insgesamt. Immobilienverwaltung und -Vermittlung. Der einfache und sichere Zugang zu Geschäftsräumen, Lagerhallen oder Wohnungen schafft neben Mehrwert auch Wettbewerbsvorteile. Lokale Geschäfte erhalten so auch die Möglichkeit eines neuen Absatzkanales. Sharing Economy und Nachhaltigkeit. Die Sharing Economy wächst rasant. So wird sich die Zahl der Car Sharing Benutzer innerhalb von fünf Jahren versechsfachen. Eine einfache Form für den Zugang wird ein Schlüsselfaktor für den Durchbruch sein.Versicherungen und New Businesses. OPEN ermöglicht es an den Kern des radikal vereinfachten Zugangsmanagements neuartige Geschäftsmodelle anzuknüpfen. So können beispieslweise neue Formen von Versicherungsprodukten angeboten werden.",
+            tasks: [
+                ''
+            ],
+            link: 'https://platformopen.com/',
+            linkText: 'https://platformopen.com/',
+            tags: [
+                {
+                    text: 'freelancer',
+                    class: 'private'
+                },
+                {
+                    text: 'backend developer',
+                    class: 'developer'
+                }
+            ],
+        },
+        {
             title: 'Patrouille des Glaciers (PdG) - Mobile app',
             year: '2017-2021',
             description: "This app manages to bring a mountain race that is difficult to access onto the sofa at home and makes it possible to cheer for the teams and actively motivate them.",
@@ -226,6 +246,27 @@ portfolioApp.factory('ArticlesDataService', function () {
                     class: 'projectmanager'
                 }
             ],
+        },
+        {
+            title : 'Surprise Vertrieb',
+            year: '2017/2018',
+            description : "Surprise is a street magazine published by the association Surprise, with headquarters in Basel and two regional offices in Bern and Zurich. The reach of the magazine is 142,000 people. Surprise (client) sells street magazines to the street vendors via various outlets. Outlets can be small stationary grocery stores but also mobile points of contact. When magazines are sold from the outlets to the sellers, their transaction number (quantity and price) is manually recorded on a list. The collection of the numbers of the sellers is error-prone, since the persons who capture the numbers party can not read and write well. With an error-free and easier capture of each transaction, the settlement should be more pleasant and efficient. The interfaces between regional offices, outlets and sellers are crucial. I am creating a solution that fixes the problem and satisfies the affected areas. With a QR code scanner in a mobile app, the numbers of the seller are recorded completely and without errors. With a web application, regional offices can manage the transactions. For example, with various list views by period, quantity, outlets, ect. be filtered.",
+            tasks : [
+                'Project management | ', 'Development'
+            ],
+            link: 'https://surprise.ngo',
+            linkText : 'surprise.ngo',
+            tags : [
+                {
+                    text: 'freelancer',
+                    class: 'private'
+                },
+                {
+                    text: 'full-stack developer',
+                    class: 'developer'
+                }
+            ],
+            imagePath : ''
         },
         {
             title: 'Brixel - Mobile app',

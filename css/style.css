@@ -18,12 +18,11 @@
 /* Tags */
     div.tags{
         border-radius: 5px;
-        margin-left: 2px;
+        margin-left: 5px;
         padding: 0px 10px 0px 10px;
-        height: 25px;
         color: white;
         float: left;
-        font-size:x-small;
+        font-size: small;
     }
 
     div.employee {
