@@ -4,14 +4,14 @@ portfolioApp.factory('ArticlesDataService', function () {
 
     srv._employeeProjects = [
         {
-            title: 'Blockchain Wallets - Mobile apps',
-            year: '2021',
-            description: "With the Startfeld Wallet, startups can redeem services received from partner companies with digital vouchers in the form of Startfeld Coins (SFC). Concept, design and creation of the iOS and Android app Provision of the blockchain RPC. Creation of SmartContract",
+            title: 'Wallets - Mobile apps',
+            year: '2020 - 2021',
+            description: "Together with customers, designers, blockchain experts, developers and testers, I develop mobile wallets with which users can redeem digital vouchers. The solution is based on a SmartContract and stores transactions via a specially created RPC on a custom Ethereum blockchain.",
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering | ', 'Smart contract development | ', 'Solution design'
             ],
             link: 'https://appswithlove.com/referenzen/startfeld',
-            linkText: 'https://appswithlove.com/referenzen/startfeld',
+            linkText: 'Reference of the Startfeld wallet',
             tags: [
                 {
                     text: 'employee @ apps with love',
@@ -20,15 +20,19 @@ portfolioApp.factory('ArticlesDataService', function () {
                 {
                     text: 'project manager',
                     class: 'projectmanager'
+                },
+                {
+                    text: 'smart contract developer',
+                    class: 'developer'
                 }
             ],
         },
         {
-            title: 'Migros Play - Mobile app',
+            title: 'Gold Winner "Migros Play App" - Mobile app',
             year: '2017-2021',
-            description: "In the Migros Play app, entertaining topics from the well-known Migros Mania promotions or the seasonal campaigns for Easter, summer or Christmas are played.",
+            description: 'I am developing the Migros Play app together with customers, designers, developers and testers. With this iOS and Android app, children can also enjoy various Migros campaigns on their smartphones. Audio stories can be heard, animals brought to life via AR by scanning physical stickers and other feautures were available. With this app we won the Gold Award at the Swiss Best of Swiss App Award in the category "campagnes".',
             tasks: [
-                ''
+                'Project management | ', 'Requirements engineering'
             ],
             link: 'https://appswithlove.com/referenzen/migros-play',
             linkText: 'https://appswithlove.com/referenzen/migros-play',
