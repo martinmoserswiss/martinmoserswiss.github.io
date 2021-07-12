@@ -1,0 +1,31 @@
+.project-item {
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    background-color: var(--color-white);
+
+    > .timeperiod {
+        color: var(--color-grey-base);
+        font-size: 14px;
+        font-weight: 100;
+    }
+    > .title {
+        display: grid;
+        font-weight: 800;
+        font-size: 32px;
+
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 4px;
+            width: 35px;
+            background-color: var(--color-primary-dark);
+            margin-top: 0.5rem;
+        }
+    }
+    > .description {
+        margin-top: 1rem;
+    }
+    > .tags {
+        margin-top: 2rem;
+    }
+}
