@@ -1,29 +1,32 @@
 <article ng-repeat="p in employeeProjects" class="item project-item">
-    <p class="timeperiod" ng-bind="p.year" />
-    <h4 class="title" ng-bind="p.title" />
-    <p class="description" ng-bind="p.description" />
+  <p class="timeperiod" ng-bind="p.year" />
+  <h4 class="title" ng-bind="p.title" />
+  <p class="description" ng-bind="p.description" />
+  
+  <br/>
+  <span>Topics:</span>
+  <ul class="task-list">
+    <li ng-repeat="task in p.tasks" class="item task-item">
+      <span ng-bind="task" />
+    </li>
+  </ul>
 
-    <ul class="task-list">
-        <li ng-repeat="task in p.tasks" class="item task-item">
-            <span ng-bind="task" />
-        </li>
-    </ul>
-
-    <ul class="tags tag-list">
-        <li ng-repeat="tag in p.tags" class="item tag-item">
-            <span ng-bind="tag.text" />
-        </li>
-    </ul>
-    <!-- <p>
-    <a ng-bind="p.linkText" target="_blank" ng-href="{{p.link}}"></a>
-    <span ng-hide="{{p.linkText2 === undefined}}">|<span>
-      <a ng-hide="p.linkText2 == ''" ng-bind="p.linkText2" target="_blank" ng-href="{{p.link2}}"></a>
-      <span ng-hide="{{p.linkText3 === undefined}}">|<span>
-        <a ng-hide="p.linkText3 == ''" ng-bind="p.linkText3" target="_blank" ng-href="{{p.link3}}"></a>
-      </p> -->
-
-    <!-- <div ng-repeat="tag in p.tags">
-      <div class="tags" ng-class="tag.class" ng-bind="tag.text"/>
-  </div> -->
-    <!-- <div ng-hide="isLastItem(p)"><hr style="width: 100%;"/></div> -->
+  <div ng-hide="{{p.linkText === undefined}}">
+    <br/>
+    <p class="link-list">
+      <span>More: </span>
+      <a ng-bind="p.linkText" target="_blank" ng-href="{{p.link}}"></a>
+      <span ng-hide="{{p.linkText2 === undefined}}">|<span>
+          <a ng-hide="p.linkText2 == ''" ng-bind="p.linkText2" target="_blank" ng-href="{{p.link2}}"></a>
+          <span ng-hide="{{p.linkText3 === undefined}}">|<span>
+              <a ng-hide="p.linkText3 == ''" ng-bind="p.linkText3" target="_blank" ng-href="{{p.link3}}"></a>
+    </p>
+  </div>
+  
+  <ul class="tags tag-list">
+    <li ng-repeat="tag in p.tags" class="item tag-item">
+      <span ng-bind="tag.text" />
+    </li>
+  </ul>
+  
 </article>

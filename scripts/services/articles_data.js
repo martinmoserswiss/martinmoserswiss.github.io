@@ -11,7 +11,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Project management', 'Requirements engineering', 'Smart contract development', 'Technical solution design'
       ],
       link: 'https://appswithlove.com/referenzen/startfeld',
-      linkText: 'Reference of the Startfeld wallet',
+      linkText: 'Startfeld project (https://appswithlove.com/referenzen/startfeld)',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -30,7 +30,7 @@ portfolioApp.factory('ArticlesDataService', function () {
     {
       title: 'Gold Winner "Migros Play App" - Mobile app',
       year: '2017-2021',
-      description: 'I am developing the Migros Play app together with customers, designers, developers and testers. With this iOS and Android app, children can also enjoy various Migros campaigns on their smartphones. Audio stories can be heard, animals brought to life via AR by scanning physical stickers and other feautures were available. With this app we won the Gold Award at the Swiss Best of Swiss App Award in the category "campagnes".',
+      description: 'Together with customers, designers, developers and testers I working on the Migros Play app. With this iOS and Android app, children can enjoy various Migros campaigns on their smartphones. Audio stories can be heard, animals brought to life via AR by scanning physical stickers and other feautures were available. With this app we won the Gold Award at the Swiss Best of Swiss App Award in the category "campagnes".',
       tasks: [
         'Project management', 'Requirements engineering'
       ],
@@ -54,8 +54,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Project management', 'Requirements engineering', 'Technical solution design'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -75,7 +73,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Project management'
       ],
       link: 'https://apps.apple.com/de/app/smart-connector/id1545326243',
-      linkText: 'iOS App',
+      linkText: 'https://apps.apple.com/de/app/smart-connector/id1545326243',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -94,8 +92,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Project management', 'Requirements engineering', 'Consulting'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -132,9 +128,9 @@ portfolioApp.factory('ArticlesDataService', function () {
       ],
     },
     {
-      title: 'Patrouille des Glaciers (PdG) - Mobile app',
+      title: 'Bronze Winner "PdG" - Mobile app',
       year: '2017-2021',
-      description: "This mobile app manages to bring a mountain race that is difficult to access at home and makes it possible to cheer for the teams and actively motivate them. I'm allowed to accompany this project as a project manager and requirements engineer.",
+      description: 'The PdG mobile app (Patrouille des Glaciers) manages to bring a mountain race that is difficult to access at home and makes it possible to cheer for the teams and actively motivate them. I\'m allowed to accompany this project as a project manager and requirements engineer. With this app we won the Bronze Award at the Swiss Best of Swiss App Award in the category "UX/Usability"',
       tasks: [
         'Project management', 'Requirements engineering'
       ],
@@ -202,8 +198,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Project management', 'Requirements engineering'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -263,8 +257,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Research', 'Prototyping', 'Google Tango', 'Google Cardboard', 'Unity', 'Web-Applications', 'Mobile-Apps'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'employee @ wide ventures',
@@ -303,8 +295,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Design', '.NET-Development with Xamarin'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'employee @ emineo',
@@ -483,7 +473,7 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Game', 'Native Android app', 'Java'
       ],
-      link: 'projects/Adventskalender/index.html#/13',
+      link: 'projects/adventskalender/index.html#/13',
       linkText: 'Adventskalender',
       tags: [
         {
@@ -523,8 +513,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Game', 'Native iOS app', 'Swift'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'private',
@@ -543,8 +531,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Game', 'Hybrid mobile app', 'Ionic (HTML, CSS, Java-Script)', 'Target: Android'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'private',
@@ -583,8 +569,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Concept', 'Java/Java-Script-Development'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'private',
@@ -623,8 +607,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Planing', 'Development (HTML, CSS, Java-Script)', 'Maintaining'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'freelancer',
@@ -643,8 +625,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Planing', 'Development (Wordpress)'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'freelancer',
@@ -703,8 +683,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Planing', 'PHP- and Java-Script-Development'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'freelancer',
@@ -723,8 +701,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Planing', 'PHP- and Java-Script-Development'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'freelancer',
@@ -743,8 +719,6 @@ portfolioApp.factory('ArticlesDataService', function () {
       tasks: [
         'Planing', 'PHP- and Java-Script-Development'
       ],
-      link: '',
-      linkText: '',
       tags: [
         {
           text: 'freelancer',
