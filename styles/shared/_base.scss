@@ -1,0 +1,63 @@
+:root {
+    box-sizing: border-box;
+    color: var(--color-black);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: currentColor;
+    display: inline-block;
+    text-decoration-skip-ink: auto;
+}
+
+img,
+svg {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+
+    // @see https://stackoverflow.com/a/5804278/4628548
+    // vertical-align: if(map-has-key($settings, 'image-align'), map-get($settings, 'image-align'), top);
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    @media #{$tablet} {
+        overflow: hidden;
+    }
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    max-width: $page-max-width;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        160deg,
+        var(--color-primary-light) 1%,
+        var(--color-secondary-light) 94%
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-print-color-adjust: exact !important;
+
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+// Reset margins
+:is(h1, h2, h3, h4, h5, h6, p, blockquote) {
+    margin: 0;
+}
+
+p {
+    line-height: 1.45;
+}

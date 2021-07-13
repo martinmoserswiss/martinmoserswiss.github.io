@@ -1,0 +1,12 @@
+.social-item {
+    > .icon {
+        > path {
+            fill: var(--color-black);
+        }
+        &:hover {
+            > path {
+                fill: var(--color-primary-dark);
+            }
+        }
+    }
+}

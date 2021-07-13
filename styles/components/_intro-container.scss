@@ -1,0 +1,9 @@
+.intro-container {
+    margin: 3rem;
+    > .title {
+        font-size: 32px;
+    }
+    > .description {
+        margin-top: 1rem;
+    }
+}

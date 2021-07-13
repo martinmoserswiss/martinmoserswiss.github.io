@@ -1,0 +1,28 @@
+.site-container {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+    > .main {
+        height: 100%;
+    }
+    @media #{$tablet} {
+        grid-template-columns: 1fr 2fr;
+        height: 100%;
+        > .main {
+            overflow-y: auto;
+            padding-right: 0.5rem;
+            &::-webkit-scrollbar {
+                width: 0.5rem;
+            }
+            &::-webkit-scrollbar-track {
+                //: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                border-radius: 6px;
+            }
+            &::-webkit-scrollbar-thumb {
+                border-radius: 6px;
+                background-color: var(--color-primary-extralight);
+            }
+        }
+    }
+}
