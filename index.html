@@ -29,12 +29,68 @@
             href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Demo styles -->
+        <style>
+            .swiper-container {
+                width: 300px;
+                height: 300px;
+            }
+
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                border-radius: 100%;
+            }
+            .swiper-button-next {
+                bottom: 0;
+                top: unset;
+            }
+        </style>
     </head>
 
     <body>
         <div class="site-container">
             <header class="header header-container">
-                <img src="images/mm-cyrcle.png" alt="" />
+                <!-- Swiper -->
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/mm-cyrcle.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                src="https://swiperjs.com/demos/images/nature-2.jpg"
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                src="https://swiperjs.com/demos/images/nature-3.jpg"
+                            />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                src="https://swiperjs.com/demos/images/nature-4.jpg"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div class="contact-container">
                     <h1 class="title">Martin Moser</h1>
                     <h2 class="subtitle">
@@ -61,6 +117,7 @@
                     </a>
                 </div>
             </header>
+
             <main id="main" class="main main-container">
                 <div class="intro intro-container">
                     <h3 class="title">A short brief...</h3>
@@ -72,5 +129,28 @@
                 <div class="list project-list" ng-view></div>
             </main>
         </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                effect: "flip",
+                grabCursor: true,
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
     </body>
 </html>
