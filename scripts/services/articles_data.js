@@ -11,7 +11,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Project management', 'Requirements engineering', 'Smart contract development', 'Technical solution design'
       ],
       link: 'https://appswithlove.com/referenzen/startfeld',
-      linkText: 'Startfeld project (https://appswithlove.com/referenzen/startfeld)',
+      linkText: 'Startfeld project',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -35,7 +35,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Project management', 'Requirements engineering'
       ],
       link: 'https://appswithlove.com/referenzen/migros-play',
-      linkText: 'https://appswithlove.com/referenzen/migros-play',
+      linkText: 'Migros Play project',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -73,7 +73,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Project management'
       ],
       link: 'https://apps.apple.com/de/app/smart-connector/id1545326243',
-      linkText: 'https://apps.apple.com/de/app/smart-connector/id1545326243',
+      linkText: 'iOS App',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -135,7 +135,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Project management', 'Requirements engineering'
       ],
       link: 'https://appswithlove.com/referenzen/pdg',
-      linkText: 'https://appswithlove.com/referenzen/pdg',
+      linkText: 'PdG project',
       tags: [
         {
           text: 'employee @ apps with love',
@@ -644,7 +644,7 @@ portfolioApp.factory('ArticlesDataService', function () {
         'Planing', 'Java-Development (Swing, Derby, Log4j, PDFJet, JFreeChart)'
       ],
       link: 'https://bfh.easydocmaker.ch/media/pdf_final/357_Martin_Moser.pdf',
-      linkText: 'https://bfh.easydocmaker.ch/media/pdf_final/357_Martin_Moser.pdf',
+      linkText: 'Paper',
       tags: [
         {
           text: 'student',
