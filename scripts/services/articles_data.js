@@ -129,7 +129,7 @@ portfolioApp.factory('ArticlesDataService', function () {
     },
     {
       title: 'Bronze Winner "PdG" - Mobile app',
-      year: '2017-2021',
+      year: '2017-2022',
       description: 'The PdG mobile app (Patrouille des Glaciers) manages to bring a mountain race that is difficult to access at home and makes it possible to cheer for the teams and actively motivate them. I\'m allowed to accompany this project as a project manager and requirements engineer. With this app we won the Bronze Award at the Swiss Best of Swiss App Award in the category "UX/Usability" and "Functionality".',
       tasks: [
         'Project management', 'Requirements engineering'
