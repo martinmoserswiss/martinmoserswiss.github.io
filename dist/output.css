@@ -80,7 +80,6 @@ img {
 .site-container {
   display: grid;
   gap: 2rem;
-  padding: 1rem;
   width: 100%;
 }
 .site-container > .main {
@@ -125,6 +124,8 @@ img {
   border-radius: 12px;
   padding: 2rem 2.5rem;
   background-color: var(--color-white);
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .project-item > .timeperiod {
   color: var(--color-grey-base);
@@ -164,7 +165,6 @@ img {
 .contact-container > .subtitle {
   font-size: 16px;
   font-weight: normal;
-  max-width: 15ch;
   text-align: center;
   justify-self: center;
 }
