@@ -4,6 +4,26 @@ portfolioApp.factory('ArticlesDataService', function () {
 
     srv._employeeProjects = [
         {
+            title: 'Prozessbildung',
+            year: '2024–2025',
+            description: 'The project was implemented from scratch together with the client - from the requirements analysis to the architecture and technical implementation. The aim was to create a website that allows visitors to access information, get in touch, watch protected videos and take out a paid subscription. The platform enables the administration of user accounts, secure login, address registration and payment processing. We also supported the client in setting up her Microsoft infrastructure for internal and external communication.',
+            tasks: [
+                'Concept & Architecture', 'Full-Stack-Development', 'Project management', 'IT-Infrastructur Consulting'
+            ],
+            link: 'https://www.prozessbildung.ch/',
+            linkText: 'Web',
+            tags: [
+                {
+                    text: 'm0s',
+                    class: 'private'
+                },
+                {
+                    text: 'full stack software engineer',
+                    class: 'development'
+                }
+            ]
+        },
+        {
             title: 'ZRH Insider App',
             year: '2022 - 2024',
             description: "Zurich Airport provides various services for its own employees and for the employees (around 30,000) of tenant companies. One of these services is the ZRH Insider App, a native iOS and Android mobile application. I had the privilege of working on the initial version 1.0 and subsequent versions as a project manager and requirements engineer. The product team on my side is broadly based with people from the disciplines of Solution Architect, Android Developer, iOS Developer, UX Design, UX Writing and QA. This allows tasks to be delegated and focused.",
@@ -40,7 +60,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             linkText: 'aletschgold.ch',
             tags: [
                 {
-                    text: 'freelancer',
+                    text: 'm0s',
                     class: 'private'
                 },
                 {
@@ -60,7 +80,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             linkText: 'rhodan.ch',
             tags: [
                 {
-                    text: 'freelancer',
+                    text: 'm0s',
                     class: 'private'
                 },
                 {
@@ -80,7 +100,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             linkText: 'berghilfe.ch',
             tags: [
                 {
-                    text: 'freelancer',
+                    text: 'm0s',
                     class: 'private'
                 },
                 {
@@ -100,7 +120,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             linkText: 'thekingmd.com',
             tags: [
                 {
-                    text: 'freelancer',
+                    text: 'm0s',
                     class: 'private'
                 }
             ],
@@ -116,7 +136,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             linkText: 'buzz-tour.ch',
             tags: [
                 {
-                    text: 'freelancer',
+                    text: 'm0s',
                     class: 'private'
                 },
                 {
@@ -136,7 +156,7 @@ portfolioApp.factory('ArticlesDataService', function () {
             linkText: 'cczermatt.ch',
             tags: [
                 {
-                    text: 'freelancer',
+                    text: 'm0s',
                     class: 'private'
                 }
             ],
