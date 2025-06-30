@@ -4,8 +4,28 @@ portfolioApp.factory('ArticlesDataService', function () {
 
     srv._employeeProjects = [
         {
+            title: 'Studio DIA - Redesign with flair - UX optimization without loss of identity',
+            year: '2024 – 2025',
+            description: 'For the studiodia.ch project, I worked with the client to develop and implement targeted improvements to the content and user experience (UX). The aim was to make the existing website more modern, accessible and user-friendly - without losing the characteristic appearance that has always characterized Studio DIA. The challenge was to respect the existing design language while integrating current web standards and a more consistent user experience. Working closely with the Studio DIA team, we restructured content, optimized navigation and made minor design adjustments that make a big difference overall - without reinventing the wheel. I particularly appreciate projects like this, where the aim is to develop what already exists in a meaningful way rather than replacing it with a completely new development. For me, the balance between preserving and improving is not just a question of design, but a strategic decision.',
+            tasks: [
+                'Project management', 'Web development', 'Wordpress (PHP, HTML, SCSS)'
+            ],
+            link: 'https://www.studiodia.ch/',
+            linkText: 'Web',
+            tags: [
+                {
+                    text: 'm0s',
+                    class: 'private'
+                },
+                {
+                    text: 'software engineer',
+                    class: 'development'
+                }
+            ],
+        },
+        {
             title: 'Prozessbildung',
-            year: '2024–2025',
+            year: '2024 – 2025',
             description: 'The project was implemented from scratch together with the client - from the requirements analysis to the architecture and technical implementation. The aim was to create a website that allows visitors to access information, get in touch, watch protected videos and take out a paid subscription. The platform enables the administration of user accounts, secure login, address registration and payment processing. We also supported the client in setting up her Microsoft infrastructure for internal and external communication.',
             tasks: [
                 'Concept & Architecture', 'Full-Stack-Development', 'Project management', 'IT-Infrastructur Consulting'
